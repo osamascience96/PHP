@@ -1,0 +1,6857 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bgcol1 {
+	background-color:#fff;
+}
+
+.bgcol2 {
+	background-color:#63C;
+}
+
+.bgcol3 {
+	background-color:#C03;
+}
+
+.bgcol4 {
+	background-color:#F0F;
+}
+
+.bgcol5 {
+	background-color:#FF0;
+}
+
+/*THEME*/
+.t-none {
+	text-decoration:none !important;
+}
+h2, h6 {
+	font-family:agency fb;
+}
+
+.col_pad_none {
+	padding-left:0;
+	padding-right: 0;
+}
+
+
+.btn-theme {
+	color:#fff !important;
+	background-color:#1a76bb !important;
+	border:solid 1px #1a76bb;
+	font-weight:800;
+}
+
+.btn-theme:hover {
+	color:#1a76bb !important;
+	background-color:#fff !important;
+	border:solid 1px #1a76bb;
+}
+
+/*Mobile Menu Start*/
+.mob_menu_main {
+	background-color:rgba(0,0,0,.70);
+	width: 100%;
+	z-index: 99999;
+	bottom:0;
+	left:-100%;
+	top:0;
+	transition: 1s;
+	position: fixed;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.mob_menu_main2 {
+	width: 100%;
+	z-index: 99999;
+	bottom:0;
+	left:0;
+	top:0;
+	transition: 0.5s;
+	position: fixed;
+}
+
+.mob_menu_main_row {
+	background-color: #fff;
+	width: 100%;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.mob_menu_main_row2 {
+	background-color: #fff;
+	width: 70%;
+	height: 100%;
+	overflow:auto;
+}
+
+.mob_menu_main_row3 {
+	background-color: #fff;
+	width: 70%;
+	margin-right: -70%;
+	height: 100%;
+	overflow:auto;
+	display: none;
+	transition: 1s;
+}
+.mob_menu_main_row3-show {
+	display: block;
+	
+}
+.visi-none {
+	display: none;
+}
+
+.mob_menu_main_row4 {
+	background-color: #fff;
+	width: 70%;
+	margin-right: -70%;
+	height: 100%;
+	overflow:auto;
+	display: none;
+	transition: 1s;
+}
+.mob_menu_main_row4-show {
+	display: block;
+	
+}
+.visi-none {
+	display: none;
+}
+
+.mob_menu_main_row5 {
+	background-color: #fff;
+	width: 70%;
+	margin-right: -70%;
+	height: 100%;
+	overflow:auto;
+	display: none;
+	transition: 1s;
+}
+.mob_menu_main_row5-show {
+	display: block;
+	
+}
+.visi-none {
+	display: none;
+}
+
+
+.mob_menu_main_row6 {
+	background-color: #fff;
+	width: 70%;
+	margin-right: -70%;
+	height: 100%;
+	overflow:auto;
+	display: none;
+	transition: 1s;
+}
+.mob_menu_main_row6-show {
+	display: block;
+	
+}
+.visi-none {
+	display: none;
+}
+
+
+
+.mob_menu_main_row7 {
+	background-color: #fff;
+	width: 70%;
+	margin-right: -70%;
+	height: 100%;
+	overflow:auto;
+	display: none;
+	transition: 1s;
+}
+.mob_menu_main_row7-show {
+	display: block;
+	
+}
+.visi-none {
+	display: none;
+}
+
+.mob_menu_main_row8 {
+	background-color: #fff;
+	width: 70%;
+	margin-right: -70%;
+	height: 100%;
+	overflow:auto;
+	display: none;
+	transition: 1s;
+}
+.mob_menu_main_row8-show {
+	display: block;
+	
+}
+.visi-none {
+	display: none;
+}
+
+
+
+.mob_menu_main_row9 {
+	background-color: #fff;
+	width: 70%;
+	margin-right: -70%;
+	height: 100%;
+	overflow:auto;
+	display: none;
+	transition: 1s;
+}
+.mob_menu_main_row9-show {
+	display: block;
+	
+}
+.visi-none {
+	display: none;
+}
+
+
+
+
+.mega_menu_cross{
+font-size: 17px;	
+float: right;
+margin-top: 0%;
+margin-bottom: 10%;
+color: #1a76bb;
+text-transform: none;
+	
+}
+
+.mega_menu_cross:hover{
+text-transform: none;
+color: #1a76bb;
+	
+}
+
+.mobile_menu_heading_col{
+	border-bottom: solid 3px #1a76bb;
+}
+
+.mobile_menu_heading{
+	font-size: 17px;
+	font-weight: 700;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	color: #333;
+}
+
+.mobile_menu_heading:hover{
+	font-size: 17px;
+	font-weight: 700;
+	margin-top: 5%;
+	color: #333;
+	text-decoration: none;
+	
+}
+
+.mobile_menu_cross{
+	float: left;
+}
+
+.mobile_menu_option_col{
+	width:100%;
+	padding-top: 5%;
+	padding-bottom: 3%;
+	padding-left: 5%;
+	border-bottom: solid 1px #ccc;
+}
+
+.mobile_menu_option{
+	
+	font-size: 16px;
+	text-decoration: none;
+	margin-left: 3%;
+	color:#333;
+}
+
+.mobile_menu_option:hover{
+	
+	font-size: 16px;
+	text-decoration: none;
+	margin-left: 3%;
+	color:#333;
+}
+
+.menu_option_arrow{
+	float: right;
+	font-size: 20px;
+	margin-top: -2%;
+	font-weight: 700;
+	color: #1a76bb;
+}
+
+.menu_option_arrow:hover{
+	float: right;
+	font-size: 20px;
+	text-decoration: none;
+	margin-top: -2%;
+	font-weight: 700;
+	color: #1a76bb;
+}
+
+
+.mobile_menu_option_col2{
+	margin-top:0%;
+	border-top: solid 4px #ccc;
+}
+
+
+/*Mobile Menu End*/
+
+/*HOME PAGE*/
+
+.main-logo {
+	width:80%;
+	margin-top:6%;
+}
+
+.header_main_row {
+	padding-top:2%;
+	padding-bottom:0.8%;
+}
+
+.header_main_search {
+	border-radius:0% !important;
+	border-top:0px;
+	border-right:0px;
+	border-left:0px;
+}
+.header_search_result {
+	width: 100%;
+}
+.my_search_result_table {
+	width: 100%;
+}
+.my_search_result_tr {
+	border:solid 1px #333;
+}
+
+.header_main_search_icon {
+	border-bottom:1px;
+	border-color:#ccc;
+	border-style:solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-radius:0%;
+	color:#3f3f3f;
+}
+.header_orderBy_a {
+	text-decoration:none !important;
+	color:#15b57a;
+	font-weight:900;	
+}
+.header_nextdaydelivery_a {
+	text-decoration:none !important;
+	color:#000;	
+}
+.header_orderdelivery{
+	font-size: 13px;
+	line-height: 18px;
+	
+}
+.header_rate{
+	font-size:13px;
+	margin-left:-15%;
+	padding-top:8% !important;
+	float:left;
+}
+.trust_review_img {
+	width:60%; 
+	margin-top:6%;
+	float:left;
+	
+}
+.header_opticaladvice_link{
+	text-decoration:none !important;
+	color:#333;	
+	font-size: 13px;
+	text-align:center !important;
+	}
+	
+
+.header_contact_number {
+	text-decoration:none !important;
+	color:#333;	
+	font-weight:600;
+	font-size: 19px;
+	text-align:center;
+}
+.header_opticaladvice_p1  {
+	text-align:center;
+	margin-bottom:-10%;
+	margin-top:5%;
+}
+
+.header_opticaladvice_p2 {
+	text-align:center;
+	margin-top:-10%;
+	
+}
+
+.header_optical_underline{
+	border-color: #333;
+	
+}
+
+.navi{
+		border-color:#ccc !important;
+		border-style:solid !important;
+		border-top-width:1px !important;
+		border-bottom-width:1px !important;
+		border-left-width:0px !important;
+		border-right-width:0px !important;
+		line-height:12px;
+		
+}
+.main_navbar_ul {
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.nav-link{
+	font-size: 14px;
+	font-weight:700;
+	color: #333;
+}
+
+.nav_ul .nav_li{
+	margin-left:18px;
+}
+
+.nav_ul .nav_li div {
+	display:none;
+}
+
+.nav_ul .nav_li:hover div {
+	display:inline-block;
+}
+
+.arrow_img {
+		margin-top:-1.7%;
+		margin-left:120px;
+		float:left;
+}
+
+/* Contact Lens Menu CSS Start  */
+
+.mega_menu_d1 {
+	margin-top:0.6%;
+	position:absolute;
+	width:100%;
+	margin-left:-5%;
+	z-index:999999;
+	padding-top:0.6%;
+	padding-bottom:2%;
+	border:solid 1px #ccc;
+}
+.mega_menu_d1_col {
+		float:left;
+}
+
+.mega_menu_d1_col1 {	
+	border-right:solid 1px #000;
+	border-color:#ccc;
+}
+
+.contact_lense_menu_image {
+	width:70%;
+	margin:0 auto;
+	display:block;
+	margin-bottom:5%;
+}
+
+.contact_lense_menu_image:hover {
+
+	opacity:0.2;	
+}
+
+.mega_menu_d1_col1_ul {
+	list-style:none;
+	padding-inline-start:0px !important;
+}
+
+.mega_menu_d1_col1_title1 {
+		border-bottom:solid 1px #000;
+		width:35%;
+		margin:auto;
+		padding-bottom:3px;
+		display:block;
+		margin-bottom:10%;
+		text-align:center;
+}
+
+
+.mega_menu_d1_col2 {	
+	border-right:solid 1px #000;
+	border-color:#ccc;
+	padding:0;
+}
+
+
+.mega_menu_d1_col2_ul{
+
+	list-style:none !important;
+	padding-inline-start:0px !important;
+}
+
+
+.mega_menu_d1_col2_title1 {
+		border-bottom:solid 1px #000;
+		width:21%;
+		padding-bottom:2%;
+		margin:auto;
+		display:block;
+		margin-bottom:10%;
+}
+
+
+
+.mega_menu_d1_col2_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+}
+.mega_menu_d1_col2_ul_list:hover {
+	color:#333;	
+}
+
+
+
+.mega_menu_d1_col3 {	
+	border-right:solid 1px #000;
+	border-color:#ccc;
+	padding:0px;
+}
+
+
+.mega_menu_d1_col3_ul{
+	list-style:none !important;
+	padding-inline-start:0px !important;
+}
+
+
+.mega_menu_d1_col3_title1 {
+		border-bottom:solid 1px #000;
+		width:35%;
+		padding-bottom:3%;
+		margin:auto;
+		display:block;
+		margin-bottom:10%;
+}
+
+.mega_menu_d1_col3_title2 {
+		border-bottom:solid 1px #000;
+		width:35%;
+		padding-bottom:3%;
+		margin:auto;
+		display:block;
+		margin-bottom:10%;
+		margin-top:10%;
+}
+
+
+.mega_menu_d1_col3_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+}
+
+.mega_menu_d1_col3_ul_list:hover {
+	color:#333;	
+}
+
+.mega_menu_d1_col4_title1 {
+		border-bottom:solid 1px #000;
+		width:36%;
+		padding-bottom:3%;
+		margin:auto;
+		display:block;
+		margin-bottom:10%;
+		text-align:center;
+}
+
+.mega_menu_d1_col4_title2 {
+		border-bottom:solid 1px #000;
+		width:40%;
+		padding-bottom:3%;
+		margin:auto;
+		display:block;
+		margin-bottom:15%;
+		text-align:center;
+		margin-top:10%;
+}
+
+.mega_menu_d1_col4_d2 {
+	padding-left:2%;
+	padding-right:2%;
+}
+
+.mega_menu_d1_col4_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+}
+
+.mega_menu_d1_col4_ul_list:hover {
+	color:#333;	
+}
+.mega_menu_d1_col4_ul_list:hover {
+	color:#333;	
+}
+
+.mega_menu_d1_col4 {	
+	border-right:solid 1px #000;
+	border-color:#ccc;
+	padding:0px;
+}
+
+.mega_menu_d1_col4_ul{
+	list-style:none !important;
+	padding-inline-start:0px !important;
+}
+
+
+.mega_menu_d1_col4 {	
+	border-right:solid 1px #000;
+	border-color:#ccc;
+}
+
+.mega_menu_li{
+	width:50%;
+	float:left;
+	font-size:14px;
+}
+.mega_menu_li_end_div {
+	width:100%;	
+}
+.mega_menu_li_end{
+	width:100%;
+	font-size:14px;
+	height:100%;
+	padding:2% 3% 2% 3%;
+
+}
+
+.mega_menu_li_multicolor_div {
+	width:100%;
+}
+
+.mega_menu_li_multicolor_ul {
+	padding-inline-start:0px !important;
+}
+
+
+.mega_menu_li_multicolor_li {
+	width:100%;
+	font-size:14px;
+	list-style:none;
+	float:left;
+	padding-inline-start:10px !important;
+	padding-top:3%;
+	padding-bottom:3%;
+}
+
+.mega_menu_col4_img {
+	background-image:url("../images/header/Color/colour-1.png");
+	background-repeat:no-repeat;
+	background-position:50% 85% !important;
+	padding-bottom:0.4%;
+	width:100%;
+}
+
+
+.mega_menu_d1_col5 {	
+	border-color:#ccc;
+	padding:0px;
+}
+
+
+.mega_menu_d1_col5_ul{
+	list-style:none !important;
+	padding-inline-start:0px !important;
+}
+
+
+.mega_menu_d1_col5_title1 {
+		border-bottom:solid 1px #000;
+		width:70%;
+		padding-bottom:3%;
+		margin:auto;
+		display:block;
+		margin-bottom:10%;
+		text-align:center;
+}
+
+
+.mega_menu_d1_col5_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+}
+.mega_menu_d1_col5_ul_list:hover {
+	color:#333;	
+}
+
+
+.mega_menu_d1_col6 {	
+	border-left:solid 1px #000;
+	border-color:#ccc;
+	padding:0px;
+}
+
+
+.mega_menu_d1_col6_ul{
+	list-style:none !important;
+	padding-inline-start:0px !important;
+}
+
+
+.mega_menu_d1_col6_title1 {
+		border-bottom:solid 1px #000;
+		width:45%;
+		padding-bottom:3%;
+		margin:auto;
+		display:block;
+		margin-bottom:10%;
+		text-align:center;
+}
+
+.mega_menu_d1_col6_title2 {
+		border-bottom:solid 1px #000;
+		width:30%;
+		padding-bottom:3%;
+		margin:auto;
+		display:block;
+		margin-bottom:10%;
+		margin-top:10%;
+		text-align:center;
+}
+
+
+.mega_menu_d1_col6_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+}
+
+.mega_menu_d1_col6_ul_list:hover {
+	color:#333;	
+}
+
+.mega_menu_view_a  {
+	color:#1a76bb !important;
+	font-size:13px;
+	border-bottom-width:0px !important;
+	
+}
+
+.mega_menu_view_a:hover {
+	color:#333 !important;
+	text-decoration:none !important;
+}
+
+.mega_menu_view{
+	padding-left:10px;
+	padding-right:10px;
+	width:100%;
+	
+}
+.mega_menu_view:hover{
+	background-color:#ccc;	
+}
+
+.mega_menu_view_coll_a{
+	color:#1a76bb !important;
+	font-size:13px;
+	border-bottom-width:0px !important;
+	text-align:center !important;
+	text-decoration:none !important;
+	display:block;
+}
+
+.mega_menu_view_coll_a:hover {
+	color:#333 !important;	
+}
+
+.mega_menu_view_coll:hover {
+	color:#000;
+}
+
+
+.mega_menu_btn1 {
+	color:#fff !important;
+	text-align: center;
+	font-size: 16px !important;	
+	margin-left:18%;
+	margin-top:5%;
+	width:48%;
+	border-radius:0;
+}
+
+.mega_menu_h5_link{
+	color:#000 !important;
+	text-decoration:none !important;
+	
+}
+.mega_menu_h5_link:hover{
+	color:#1a76bb !important;
+	text-decoration:none !important;	
+}
+
+.mega_menu_heading{
+	color:#000;
+	text-decoration:none !important;
+	font-size:16px;
+} 
+
+.mega_menu_image_link{
+	color:#000;
+	text-decoration:none !important;
+	font-size: 13px;
+}
+
+.mega_menu_image_link:hover{
+	color:#000;
+	
+}
+.mega_menu_li {
+	padding:2% 3% 2% 3%;
+}
+
+.mega_menu_li:hover{
+	background-color:#ccc;
+	
+}
+.mega_menu_li_end:hover{
+	background-color:#ccc;
+}
+
+.mega_menu_li_multicolor_li:hover {
+	background-color:#ccc;
+
+}
+
+.mega_menu_list_color{
+	width:100%;
+	padding-left:10px;
+	padding-right:10px;
+	
+}
+.mega_menu_list_color:hover{
+	background-color:#ccc;
+}
+/* Contact Lens Menu CSS End  */
+
+
+
+/* Solutions Menu CSS Start  */
+.mega_menu_d2 {
+	margin-top:0.6%;
+	position:absolute;
+	width:33%;
+	margin-left:-11%;
+	z-index:999999;
+	padding-top:0.6%;
+	padding-bottom:2%;
+	border:solid 1px #ccc;
+}
+
+.arrow_img_2 {
+		margin-top:-4.4%;
+		margin-left:192px;
+		float:left;
+}
+
+.mega_menu_d2_col {
+		float:left;
+}
+
+.mega_menu_d2_col1 {	
+	border-right:solid 1px #000;
+	border-color:#ccc;
+}
+
+.mega_menu_d2_col1_title1 {
+	border-bottom:solid 1px #000;
+		width:28%;
+		margin:auto;
+		padding-bottom:4px;
+		display:block;
+		margin-bottom:10%;
+		text-align:center;
+}
+
+.mega_menu_d2_col1_ul {
+	list-style:none;
+	padding-inline-start:0px !important;
+}
+
+.mega_menu_d2_li{
+	float:left;
+	font-size:14px;
+	width:50%;
+	display: block;
+    line-height: 17px;
+    padding-top: 8px;
+    padding-bottom: 8px;	
+}
+
+.solutions_menu_image{
+	width:80%;
+	display:inline-block;
+	margin:auto;	
+}
+
+.solutions_menu_image:hover{
+	opacity:0.2;	
+
+}
+.mega_menu_d2_col2 {	
+	border-color:#ccc;
+	padding:0;
+}
+
+.mega_menu_d2_col2_title1 {
+		border-bottom:solid 1px #000;
+		width:38%;
+		padding-bottom:2%;
+		margin:auto;
+		display:block;
+		margin-bottom:10%;
+}
+
+.mega_menu_d2_col2_ul{
+
+	list-style:none !important;
+	padding-inline-start:0px !important;
+}
+
+.mega_menu_d2_col2_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+}
+
+.mega_menu_d2_col2_ul_list:hover {
+	color:#333;	
+}
+
+.mega_menu_btn2 {
+	color:#fff !important;
+	text-align: center;
+	font-size: 16px !important;	
+	margin-left:18%;
+	margin-top:5%;
+	width:85%;
+	border-radius:0;
+}
+
+/* Solutions Sub Menu CSS Start  */
+
+
+.nav_ul .nav_li .mega_menu_d2_col2_ul .mega_menu_d2_col2_li div {
+	display:none;
+}
+
+.nav_ul .nav_li .mega_menu_d2_col2_ul .mega_menu_d2_col2_li:hover div {
+	display:inline-block;
+}
+.mega_menu_d2_sub_menu_1 {
+	position:absolute;
+	float:left;
+	top:0%;
+	right:-200%;
+	bottom:-60%;	
+	width:200%;
+	border:solid 10px #ccc;
+	padding-right:0;
+	padding-left:0;
+}
+
+.mega_menu_d2_sub_menu_2 {
+	position:absolute;
+	float:left;
+	top:0;
+	right:-200%;
+	bottom:12%;	
+	width:200%;
+	border:solid 10px #ccc;
+	padding-right:0;
+	padding-left:0;
+}
+
+
+.mega_menu_d2_sub_menu_3 {
+	position:absolute;
+	float:left;
+	top:0;
+	right:-200%;
+	bottom:-5%;	
+	width:200%;
+	border:solid 10px #ccc;
+	padding-right:0;
+	padding-left:0;
+}
+
+.mega_menu_d2_sub_menu_4 {
+	position:absolute;
+	float:left;
+	top:40%;
+	right:-200%;
+	bottom:-3%;	
+	width:200%;
+	border:solid 10px #ccc;
+	padding-right:0;
+	padding-left:0;
+}
+
+.mega_menu_d2_sub_menu_5 {
+	position:absolute;
+	float:left;
+	top:60%;
+	right:-200%;
+	bottom:-50%;	
+	width:200%;
+	border:solid 10px #ccc;
+	padding-right:0;
+	padding-left:0;
+}
+
+
+.mega_menu_d2_sub_menu_1_row {
+	width:100%;	
+	margin-left:auto;
+	margin-right:auto;
+	display:inline-block;
+}
+
+.mega_menu_d2_sub_menu_1_col_1 {
+	width:50%;
+	float:left;
+	padding-left:0px;
+	padding-right:0px;
+	
+}
+
+.mega_menu_d2_sub_menu_1_col_2 {
+	width:50%;
+	float:left;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+
+/* Solutions Sub Menu CSS End  */
+
+/* Solutions Menu CSS End  */
+
+/* Eye Care Menu CSS Starts  */
+
+.arrow_img_3 {
+		margin-top:-4.2%;
+		margin-left:260px;
+		float:left;
+}
+
+.mega_menu_d3 {
+	margin-top:0.6%;
+	position:absolute;
+	width:35%;
+	margin-left:-17%;
+	z-index:999999;
+	padding-top:0.6%;
+	padding-bottom:2%;
+	border:solid 1px #ccc;
+}
+
+.nav_ul .nav_li .mega_menu_d3_col2_ul .mega_menu_d3_col2_li div {
+	display:none;
+}
+
+.nav_ul .nav_li .mega_menu_d3_col2_ul .mega_menu_d3_col2_li:hover div {
+	display:inline-block;
+}
+.mega_menu_d3_sub_menu_1 {
+	position:absolute;
+	float:left;
+	top:0;
+	right:-200%;
+	bottom:-10%;	
+	width:200%;
+	border:solid 10px #ccc;
+	padding-right:0;
+	padding-left:0;
+}
+
+.mega_menu_d3_sub_menu_2 {
+	position:absolute;
+	float:left;
+	top:10;
+	right:-200%;
+	bottom:20%;	
+	width:200%;
+	border:solid 10px #ccc;
+	padding-right:0;
+	padding-left:0;
+}
+
+
+.mega_menu_d3_sub_menu_3 {
+	position:absolute;
+	float:left;
+	top:20%;
+	right:-200%;
+	bottom:-80%;	
+	width:200%;
+	border:solid 10px #ccc;
+	padding-right:0;
+	padding-left:0;
+}
+
+.mega_menu_d3_sub_menu_4 {
+	position:absolute;
+	float:left;
+	top:40%;
+	right:-200%;
+	bottom:-3%;	
+	width:200%;
+	border:solid 10px #ccc;
+	padding-right:0;
+	padding-left:0;
+}
+
+
+.mega_menu_d3_sub_menu_1_row {
+	width:100%;	
+	margin-left:auto;
+	margin-right:auto;
+	display:inline-block;
+}
+
+.mega_menu_d3_sub_menu_1_col_1 {
+	width:50%;
+	float:left;
+	padding-left:0px;
+	padding-right:0px;
+	
+}
+
+.mega_menu_d3_sub_menu_1_col_2 {
+	width:50%;
+	float:left;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+
+
+.mega_menu_d3_col {
+		float:left;
+}
+
+.mega_menu_d3_col1 {	
+	border-right:solid 1px #000;
+	border-color:#ccc;
+}
+
+.mega_menu_d3_col1_title1 {
+		border-bottom:solid 1px #000;
+		width:30%;
+		margin:auto;
+		padding-bottom:4px;
+		display:block;
+		margin-bottom:10%;
+		text-align:center;
+}
+
+.mega_menu_d3_col1_ul {
+	list-style:none;
+	padding-inline-start:0px !important;
+}
+
+.mega_menu_d3_li{
+	float:left;
+	font-size:14px;
+	width:50%;
+	display: block;
+    line-height: 17px;
+    padding-top: 8px;
+    padding-bottom: 8px;	
+}
+
+.eyecare_menu_image{
+	width:80%;
+	display:inline-block;
+	margin:auto;
+}
+
+.eyecare_menu_image:hover{
+	opacity:0.2;	
+
+}
+
+.mega_menu_d3_col2_title1 {
+		border-bottom:solid 1px #000;
+		width:30%;
+		padding-bottom:2%;
+		margin:auto;
+		display:block;
+		margin-bottom:10%;
+}
+
+.mega_menu_d3_col2_ul{
+
+	list-style:none !important;
+	padding-inline-start:0px !important;
+	
+}
+
+.mega_menu_d3_col2_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+	
+}
+
+.mega_menu_d3_col2_ul_list:hover {
+	color:#333;	
+}
+
+.mega_menu_btn3 {
+	color:#fff !important;
+	text-align: center;
+	font-size: 16px !important;	
+	margin-left:18%;
+	margin-top:10%;
+	width:85%;
+	border-radius:0;
+}
+
+.mega_menu_d3_col {
+		float:left;
+}
+.mega_sub_menu_d0_col1_title1{
+	font-size:14px;
+	margin-top:2%;
+	margin-bottom:5%;
+	text-align:center;
+	width:100%;
+	line-height:14px;
+	color:#1a76bb;
+	
+}
+
+.mega_sub_menu_heading{
+	color:#44ade4;
+
+}
+
+.mega_sub_menu_heading:hover{
+	text-decoration:none;	
+	color:#44ade4;
+}
+
+.mega_sub_menu_d1_col1_ul{
+
+	list-style:none !important;
+	padding-inline-start:0px !important;
+}
+
+.mega_sub_menu_list_eye{
+	width:100%;
+	padding-left:5px;
+	padding-right:5px;
+	
+}
+
+.mega_sub_menu_d1_col1_ul_list{
+	font-weight: light;
+    color: #333;
+    display: block;
+    line-height: 17px;
+    padding-top: 1%;
+    padding-bottom: 7%;
+	padding-left:15%;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 2px #f0f0f0 solid;
+	width:100%;
+}
+
+.mega_sub_menu_d1_col1_ul_list:hover{
+	color:#333;	
+	background-color:#ccc;
+}
+
+/* Eye Care Menu CSS Ends  */
+
+/* Glasses Strat */
+
+.mega_menu_d4 {
+	margin-top:0.6%;
+	position:absolute;
+	width:70%;
+	margin-left:-26%;
+	z-index:999999;
+	padding-top:0.6%;
+	padding-bottom:2%;
+	border:solid 1px #ccc;
+}
+
+.arrow_img_4 {
+	margin-top:-2.2%;
+	margin-left:365px;
+	float:left;
+}
+
+
+.mega_menu_d4_col {
+		float:left;
+}
+
+.mega_menu_d4_col1 {	
+	border-right:solid 1px #000;
+	border-color:#ccc;
+	padding:0;
+}
+
+.mega_menu_d4_col1_title1 {
+		border-bottom:solid 1px #000;
+		width:35%;
+		padding-bottom:2%;
+		margin:auto;
+		display:block;
+		margin-bottom:10%;
+		text-align:center;
+}
+
+.mega_menu_d4_col1_ul{
+
+	list-style:none !important;
+	padding-inline-start:0px !important;
+}
+
+
+.mega_menu_d4_col1_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+	text-align:center;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+
+}
+
+.mega_menu_d4_col1_ul_list:hover {
+	color:#333;	
+}
+
+.mega_menu_d4_col1_title2 {
+		border-bottom:solid 1px #000;
+		width:80%;
+		padding-bottom:2%;
+		margin:auto;
+		margin-top:10%;
+		display:block;
+		margin-bottom:10%;
+		margin-top:20%;
+		text-align:center;
+		
+}
+
+.mega_menu_d4_col2 {	
+	border-color:#ccc;
+}
+
+.mega_menu_d4_col2_title1 {
+		border-bottom:solid 1px #000;
+		width:10%;
+		margin:auto;
+		padding-bottom:4px;
+		display:block;
+		margin-bottom:2%;
+		text-align:center;
+		
+}
+
+.glasses_brand_images_div {
+	width:24%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:2%;
+	padding-right:2%;
+	display:inline-block;
+}
+
+.glasses_brand_images {
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	display:inline-block;
+	height:45px;
+	padding-top:4%;
+	
+}
+.glasses_brand_images:hover {
+	opacity:0.2;	
+}
+
+.mega_menu_d4_col3 {	
+	border-left:solid 1px #000;
+	border-color:#ccc;
+	padding:0;
+}
+
+.mega_menu_d4_col3_title1 {
+		border-bottom:solid 1px #000;
+		width:70%;
+		text-align:center;
+		padding-bottom:2%;
+		margin:auto;
+		display:block;
+		margin-bottom:10%;
+}
+
+.mega_menu_d4_col3_ul{
+
+	list-style:none !important;
+	padding-inline-start:0px !important;
+}
+
+.mega_menu_d4_col3_ul_list{
+	font-weight:400;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    opacity: 1;
+	text-decoration:none !important;
+	text-align:center;
+	margin-bottom:3%;
+	
+	
+}
+
+.mega_menu_d4_col3_ul_list:hover{
+	color: #000;	
+
+}
+
+.Glasses_frame_img{
+
+	width:35%;	
+	float:right;
+}
+
+.mega_menu_list_frame{
+	width:100%;
+	padding-left:10px;
+	padding-right:10px;
+	
+}
+.mega_menu_list_frame:hover{
+	opacity:0.3;
+	
+}
+
+.mega_menu_btn4 {
+	color:#fff !important;
+	text-align: center;
+	font-size: 16px !important;	
+	margin-left:35%;
+	margin-top:5%;
+	width:50%;
+	border-radius:0;
+}
+
+/* Menu Glasses End */
+
+
+/* Sunglasses Menu CSS Start */
+
+.mega_menu_d5 {
+	margin-top:0.6%;
+	position:absolute;
+	width:80%;
+	margin-left:-33%;
+	z-index:999999;
+	padding-top:0.6%;
+	padding-bottom:2%;
+	border:solid 1px #ccc;
+}
+
+.arrow_img_5 {
+	margin-top:-1.8%;
+	margin-left:480px;
+	float:left;
+}
+
+.mega_menu_d5_col {
+		float:left;
+}
+
+.mega_menu_d5_col1 {	
+	border-right:solid 1px #000;
+	border-color:#ccc;
+	padding:0;
+}
+
+.mega_menu_d5_col1_title1 {
+		border-bottom:solid 1px #000;
+		width:35%;
+		padding-bottom:2%;
+		margin:auto;
+		display:block;
+		margin-bottom:10%;
+		text-align:center;
+}
+
+.mega_menu_d5_col1_ul{
+
+	list-style:none !important;
+	padding-inline-start:0px !important;
+}
+
+.mega_menu_d5_col1_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+	text-align:center;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+
+}
+
+.mega_menu_d5_col1_ul_list:hover {
+	color:#333;	
+}
+
+.mega_menu_d5_col1_title2 {
+		border-bottom:solid 1px #000;
+		width:65%;
+		padding-bottom:2%;
+		margin:auto;
+		margin-top:10%;
+		display:block;
+		margin-bottom:10%;
+		margin-top:20%;
+		text-align:center;
+		
+}
+
+.mega_menu_d5_col1_title3 {
+		border-bottom:solid 1px #1a76bb;
+		width:55%;
+		padding-bottom:2%;
+		margin:auto;
+		margin-top:10%;
+		display:block;
+		margin-bottom:10%;
+		margin-top:20%;
+		text-align:center;
+		
+}
+
+
+/* Col2 CSS */
+
+.mega_menu_d5_col2_main_center {
+	float:left;
+	padding-left:0px !important;	
+	padding-right:0px !important;	
+
+}
+.mega_menu_d5_brands_heading {
+	float:left;	
+}
+
+
+.mega_menu_d5_col2 {
+		
+	border-color:#ccc;
+}
+
+.mega_menu_d5_col2_title1 {
+		border-bottom:solid 1px #000;
+		width:20%;
+		margin:auto;
+		padding-bottom:4px;
+		display:block;
+		text-align:center;
+}
+
+.sunglasses_brand_images_div1 {
+	width:32%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:2%;
+	padding-right:2%;
+	display:inline-block;
+}
+
+.sunglasses_brand_images_list1 {
+	width:110%;
+	margin-left:auto;
+	margin-right:auto;
+	display:inline-block;
+	height:100%;
+	margin-top:15%;
+}
+
+.sunglasses_brand_images_list1:hover{
+	opacity:0.2;	
+}
+
+/* Col3 CSS */
+
+.mega_menu_d5_col3 {
+	border-left:solid 1px #000;	
+	border-color:#ccc;
+	padding:0;
+	
+}
+
+.mega_menu_d5_col3_title1 {
+		border-bottom:solid 1px #000;
+		width:40%;
+		margin:auto;
+		padding-bottom:4px;
+		display:block;
+		text-align:center;
+		
+}
+
+.sunglasses_brand_images_div2 {
+	width:32%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:2%;
+	padding-right:2%;
+	display:inline-block;
+}
+
+.sunglasses_brand_images_list2 {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	display:inline-block;
+	height:100%;
+	margin-top:15%;
+}
+.sunglasses_brand_images_list2:hover {
+	opacity:0.2;	
+}
+
+/* Col4 CSS */
+
+.mega_menu_d5_col4 {	
+	border-left:solid 1px #000;
+	border-color:#ccc;
+	padding:0;
+}
+
+.mega_menu_d5_col4_title1 {
+		border-bottom:solid 1px #000;
+		width:70%;
+		text-align:center;
+		padding-bottom:2%;
+		margin:auto;
+		display:block;
+		margin-bottom:10%;
+}
+
+.mega_menu_d5_col4_ul{
+
+	list-style:none !important;
+	padding-inline-start:0px !important;
+}
+
+.mega_menu_d5_col4_ul_list{
+	font-weight:400;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    opacity: 1;
+	text-decoration:none !important;
+	text-align:center;
+	margin-bottom:3%;
+	
+	
+}
+
+.mega_menu_d5_col4_ul_list:hover{
+	color: #000;	
+
+}
+
+.mega_menu_btn5 {
+	color:#fff !important;
+	text-align: center;
+	font-size: 16px !important;	
+	border-radius:0;
+	background-color:#f36364 !important;
+	border-color:#f36364 !important;
+	margin-left:20%;
+	width:25%;
+	
+}
+.mega_menu_btn5:hover {
+	color:#f36364 !important;
+}
+
+
+.mega_menu_btn6 {
+	color:#fff !important;
+	text-align: center;
+	font-size: 16px !important;	
+	border-radius:0;
+	margin-left:2%;
+	width:35%;
+	
+	
+}
+
+.sunglasses_btn{
+	margin-top:5%;
+}
+
+/* Sunglasses Menu CSS Ends */
+
+/* Help Menu CSS Start */
+
+.mega_menu_d6 {
+	margin-top:0.6%;
+	position:absolute;
+	width:15%;
+	margin-left:-9%;
+	z-index:999999;
+	padding-top:0.6%;
+	border:solid 1px #ccc;
+	float:left;
+}
+
+.arrow_img_6 {
+	margin-top:-9.8%;
+	margin-left:135px;
+	float:left;
+}
+
+.mega_menu_d6_col {
+		float:left;
+}
+
+.mega_menu_d6_col1 {	
+	border-color:#ccc;
+	padding:0;
+}
+
+.mega_menu_d6_col1_ul{
+
+	list-style:none !important;
+	padding-inline-start:1px !important;
+}
+
+.mega_menu_d6_col1_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+}
+.mega_menu_d6_col1_ul_list:hover {
+	color:#333;	
+}
+
+
+
+/* Help Sub Menu CSS Start  */
+
+
+.nav_ul .nav_li .mega_menu_d6_col1_ul .mega_menu_d6_col1_li div {
+	display:none;
+}
+
+.nav_ul .nav_li .mega_menu_d6_col1_ul .mega_menu_d6_col1_li:hover div {
+	display:inline-block;
+}
+.mega_menu_d6_sub_menu_1 {
+	position:absolute;
+	float:left;
+	top:15%;
+	right:-200%;
+	bottom:-10%;	
+	width:200%;
+	border:solid 10px #ccc;
+	padding-right:0;
+	padding-left:0;
+}
+
+
+.mega_menu_d6_sub_menu_1_row {
+	width:100%;	
+	margin-left:auto;
+	margin-right:auto;
+	display:inline-block;
+	margin-top:5%;
+}
+
+.mega_menu_d6_sub_menu_1_col_1 {
+	width:50%;
+	float:left;
+	padding-left:0px;
+	padding-right:0px;
+	
+}
+
+.mega_menu_d6_sub_menu_1_col_2 {
+	width:50%;
+	float:left;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+
+/* Help Sub Menu CSS End  */
+
+
+
+
+/* Help Menu CSS Ends */
+
+
+
+
+/* News Menu CSS Start */
+
+.mega_menu_d7 {
+	margin-top:0.6%;
+	position:absolute;
+	width:15%;
+	margin-left:-6%;
+	z-index:999999;
+	padding-top:0.6%;
+	border:solid 1px #ccc;
+	float:left;
+}
+
+.arrow_img_7 {
+	margin-top:-9.8%;
+	margin-left:100px;
+	float:left;
+}
+
+.mega_menu_d7_col {
+		float:left;
+}
+
+.mega_menu_d7_col1 {	
+	border-color:#ccc;
+	padding:0;
+}
+
+.mega_menu_d7_col1_ul{
+
+	list-style:none !important;
+	padding-inline-start:1px !important;
+}
+
+.mega_menu_d7_col1_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+}
+.mega_menu_d7_col1_ul_list:hover {
+	color:#333;	
+}
+
+
+/* News Menu CSS Ends */
+
+/* Login Menu CSS Start */
+
+
+
+/* Login Menu CSS Start */
+
+/* Header Basket CSS Start */
+
+.header_basket_img_li{
+	margin-top: -2%;
+}
+
+
+.mega_menu_d10 {
+	margin-top:0.6%;
+	position:absolute;
+	width:28%;
+	margin-left:-25%;
+	z-index:999999;
+	padding-top:0.6%;
+	border:solid 1px #ccc;
+	float:left;
+	transition: 3s;
+}
+
+.arrow_img_10 {
+	margin-top:-5.5%;
+	margin-left:332px;
+	float:left;
+}
+
+.mega_menu_d10_col {
+		float:left;
+}
+
+.mega_menu_d10_col1 {	
+	border-color:#ccc;
+	padding:0;
+}
+
+.mega_menu_d10_col1_ul{
+
+	list-style:none !important;
+	padding-inline-start:1px !important;
+}
+
+.mega_menu_d10_col1_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+}
+.mega_menu_d10_col1_ul_list:hover {
+	color:#333;	
+}
+
+.cart_col{
+	float:left;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	border-bottom: solid 1px #ccc;
+}
+
+.cart_col_fav{
+	float:left;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	border-bottom: solid 1px #ccc;
+}
+
+.cart_col2{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.cart_col2_fav{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top:7%;
+}
+
+
+.cart_heading_col{
+	background-color:#ccc;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.cart_heading{
+	font-size: 16px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.cart_text{
+	font-size: 14px;
+}
+.cart_text_fav {
+	font-size: 14px;
+	margin-top: 10%;
+}
+
+.cart_text2{
+	font-size: 13px;
+	padding-top: 5%;
+	
+}
+
+.cart_text3{
+	font-size:13px;
+}
+
+.cart_text4{
+	font-size: 13px; 
+	padding-left: 10%;
+}
+
+.bin_img{
+	width: 18%; 
+	float: right;
+	margin-top: -20%;
+	padding-bottom: 1%; 
+	padding-right: 3%;
+}
+
+.cart_img{
+	width: 100%; 
+	margin-top: 8%;
+	margin-bottom: 11%;
+}
+
+.cart_total_col{
+	background-color:#f7f7f7;
+	border-bottom: solid 1px #E5E5E5;
+	border-top:solid 1px #E5E5E5;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.cart_btn_col{
+	background-color: #ccc;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.cart_btn1{
+	border-radius: 0px;
+	font-size: 16px;
+	font-weight: 700;
+	background-color: #fff;
+	color: #1a76bb;
+	margin-left: 5%;
+}
+
+.cart_btn1:hover{
+	border-radius: 0px;
+	font-size: 16px;
+	font-weight: 700;
+	background-color: #1a76bb;
+	color: #fff;
+	margin-left: 5%;
+}
+
+.cart_btn2{
+	
+	border-radius: 0px;
+	font-size: 16px;
+	font-weight: 700;
+	background-color: #1a76bb;
+	color: #fff;
+	margin-left: 2%;
+}
+
+.cart_btn2:hover{
+	border-radius: 0px;
+	font-size: 16px;
+	font-weight: 700;
+	background-color: #fff;
+	color: #1a76bb;
+}
+
+.cart_btn2_fav{
+	border-radius: 0px;
+	font-size: 14px;
+	font-weight: 700;
+	background-color: #1a76bb;
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.cart_btn2_fav:hover{
+	border-radius: 0px;
+	font-size: 14px;
+	font-weight: 700;
+	border-color: #dd3333;
+	color: #dd3333;
+	background-color: #fff;
+}
+
+
+
+.cart_tbl{
+	width:100%;
+}
+
+.cart_tbl_txt{
+	float:right;
+}
+
+
+/* Header Basket CSS End */
+
+
+/* Home Page body CSS Start */
+
+.img {
+	width:100%;	
+}
+.slider_img {
+	width:100%;
+}
+
+.slider_img:hover{
+	opacity: 0.8;	
+	
+}
+
+.home_slider_col {
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.home_title_container {
+	background-color:#1a76bb;
+	text-align:center;
+	margin-top:1%;
+	margin-bottom:1%;
+}
+
+
+.home_title_text {
+	color:#fff;	
+}
+.home_title_text_link {
+	color:#fff;
+	text-decoration:none;
+}
+.home_title_text_link:hover {
+	color:#fff;
+}
+
+.home_heading_col{
+	padding-left:0px;
+	padding-right:0px;
+	border-right:solid 1px #a6dff3;
+	background-color: #a6dff3;
+	
+}
+
+.home_btn_category{
+	border-radius:0px !important;
+	font-size:13px;
+	font-weight:700;
+	background-color:#61c2e5 !important;
+	border-width:0px !important;
+	
+	
+}
+
+.home_btn_category:hover{
+	background-color:#ccc !important;
+	color:#333;
+	
+}
+
+.home_btn_category_container{
+	
+	margin-top:0.5%;
+	margin-bottom:1%;
+}
+
+.home_product_section {
+	margin-top:1%;
+	margin-bottom:1%;
+}
+
+
+/* Home Tab CSS Start */
+.tab_section_container {	
+	margin-top:1%;
+	margin-bottom:1%;
+}
+
+.tab_section_row {
+	width:92.5%;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+
+
+.nav-tabs-home .nav-link-home {
+    border: 1px solid transparent;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+	width:25%;
+	text-align: center;
+}
+.nav-link-home {
+	font-size:17px !important;
+	font-weight: 400 !important;
+	padding-top:1.5% !important;
+	padding-bottom:1.5% !important;
+	color:#333 !important;
+}
+.nav-tabs .nav-item.show .nav-link-home, .nav-tabs .nav-link-home.active {
+	background-color:#f8f9fb;
+	font-weight: 600;
+}
+
+
+.tab_container{
+	background-color:#f8f9fb;
+	
+}
+.tab-content {
+	
+}
+
+.home_tab_main_heading1{
+	margin-top: 10%;
+	margin-bottom: 5%;
+	margin-left: 3%;
+	font-size: 22px;
+}
+
+.home_tab_sub_heading1{
+	margin-left: 3%;
+	font-size: 18px;
+}
+
+.home_tab_text1{
+	font-size: 14px;
+	margin-left: 3%;
+}
+
+.home_tab_sub_heading2{
+	font-size: 18px;
+	margin-left: 3%;
+}
+
+.home_tab1_list{
+	
+	list-style: none;
+	padding-inline-start: 3% !important;
+}
+
+.home_tab1_ul_list{
+	font-size:14px;
+	
+}
+
+.home_tab_sub_heading3{
+	font-size:18px;
+	margin-left: 3%;
+	
+}
+
+.home_tab_btn{
+	border-radius:0px !important;
+	margin-left: 3%;
+	margin-top: 3%;
+	background-color: #fff;
+	color:#1a76bb;
+	
+}
+.larki {
+		width:100%;
+	} 
+
+/* Home Tab CSS End */
+
+
+/* Home Description Chart CSS Start */
+
+.home_description_heading1{
+	
+	font-size:24px;
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+
+.home_description_heading2{
+	font-size:24px;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	text-align: center;
+}
+
+.home_discription_text1{
+	margin-bottom: 4%;
+	font-size: 15px;
+}
+
+.home_discription_text2{
+	font-size: 15px;
+}
+
+.home_discription_text3{
+	margin-bottom: 10%;
+	font-size: 15px;
+}
+
+.home_chart_col{
+	float: left;
+	margin-top:5%;
+}
+
+.home_chart_heading{
+	font-size: 13px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 16.5%;
+}
+
+.home_chart_heading1{
+	font-size: 13px;
+	font-weight: 700;
+	text-align: left;
+	margin-bottom: 20%;
+}
+
+.home_chart_col1 {
+	width:34%;
+}
+.home_chart_col2 {
+	width:22%;
+}
+.home_chart_col3 {
+	width:22%;
+}
+.home_chart_col4 {
+	width:22%;
+}
+
+.home-product-chart_ul{
+	list-style: none;
+	padding-left: 0px;
+}
+.home-product-chart_ul_list{
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 1%;
+	text-align: center;
+}
+
+.home-product-chart_ul1{
+	list-style: none;
+	padding-left: 0px;
+}
+.home-product-chart_ul_list1{
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 1%;
+}
+
+.home_chart_container{
+	margin-top: 3%;
+}
+
+.home_chart_col5{
+	width: 100%;
+	float: left;
+}
+
+.home_chart_col5_text{
+	font-size: 13px;
+	text-align: center;
+}
+
+/* Home Description Chart CSS End */
+
+
+/* Home Blog CSS Start */
+
+.home_blog_container {
+	margin-top:2%;
+	margin-bottom:1%;
+}
+
+
+.home_blog_img{
+	width: 100%;
+	height: 150px;
+
+}
+
+.home_blog_img:hover{
+	opacity:0.8;
+}
+
+.home_blog_img2{
+	width:100%;
+}
+
+.home_blog_img2:hover{
+	opacity:0.8;
+}
+
+.home_blog_col{
+
+}
+
+.home_blog_col3{
+	
+}
+
+.home_blog_text{
+	margin-top:5%;
+}
+
+.home_blog_text2{
+	margin-top:11%;
+}
+
+.home_blog_heading2{
+	margin-top: 13%;
+}
+.home_blog_heading1{
+	margin-top: 5%;
+}
+.home_blog_heading3{
+	margin-top:6%;
+}
+
+.home_blog_link{
+	color:#1a76bb;
+}
+
+.home_blog_link:hover{
+	color:#1a76bb;
+	text-decoration: none;
+}
+
+.home_blog_btn {
+	border-radius: 0px !important;
+	font-size:17px;
+	background-color: #1a76bb;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	
+}
+
+.home_blog_btn:hover{
+	
+	border-radius: 0px !important;
+	font-size:17px;
+	background-color: #fff;
+	color: #1a76bb;
+	font-weight: 600;
+}
+
+.home_blog_main_heading{
+	
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	margin-top: 3%;
+}
+
+
+
+/* Home Blog CSS End */
+
+/* Home Clients CSS Start */
+
+.home_client_container{
+	margin-top:3%;
+	margin-bottom:3%;
+}
+.home_client_img{
+	width:19%;
+}
+
+/* Home Clients CSS End */
+
+/*HOME END*/
+
+
+
+/*PRODUCT CARD START*/
+.product_card_title_a {
+	color:#333;
+	text-decoration:none;	
+}
+.product_card_title_a:hover {
+	color:#333;
+	text-decoration:none;	
+}
+.product_card_bottom_category {
+	text-decoration:none;
+	color:#333;	
+}
+.product_card_bottom_category:hover {
+	color:#333;	
+}
+
+.product_fav_button {
+	border-radius:0;
+	border-bottom-right-radius:50%;
+	position:absolute;	
+}
+.product_card {
+	width:100%;	
+	float:left;
+	border: solid 1px #fff;
+	border-bottom-color: #ccc;
+	transition: 0.5s;
+	transition-timing-function: ease-in-out;
+}
+.product_card:hover {
+	border-color: #ccc !important;
+}
+
+.product_card_col {
+	padding-left:8px;
+	padding-right:8px;
+}
+.product_card_container {
+	border:solid 1px #fff;
+}
+
+.product_card_container:hover {
+	border-color:#ccc;
+	cursor:pointer;
+}
+
+.product_image {
+	width: 80%;
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	padding-top:6%;
+	padding-bottom:6%;
+	min-height: 100%;
+}
+
+.product_review {
+	width:10%;
+	float:left;
+	padding-top:2.5%;
+
+}
+.review_div {
+	width:100%;
+	padding-left:10%;
+	padding-right: 10%;
+	margin-bottom: 6%;
+}
+
+.review_text {
+	font-size:13px;
+	padding-left:5%;
+}
+.product_colors_div {
+	margin-bottom: 3%;
+}
+.product_colors_div2 {
+	margin-left:auto !important;
+	margin-right: auto !important;
+	display:block !important;
+	width:80% !important; 
+	padding-top:1%;
+	padding-bottom:1%;
+    text-align: -webkit-center
+}
+
+.product_title_container {
+	float:left;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.product_title_div1 {
+	float:left;
+	padding-left: 3%;
+}
+.product_title_div2 {
+	float:left;
+	padding-right:8px;
+	padding-left:8px
+}
+
+.product_category_title_div {
+	padding-left: 3%;
+}
+
+.product_title {
+	font-size:16px;
+	float: left;
+	font-weight: 600;
+}
+.product_sale_price {
+	font-size:16px;
+	color:#dd3333;
+	font-weight: 400;
+}
+.product_price {
+	font-size:16px;
+	font-weight: 600;
+	margin-top: -20%;
+}
+.product_days_category {
+	font-size:14px;
+	font-weight: 400;
+	width:100%;
+}
+
+.product_btn{
+	border-radius: 0px !important;
+	font-size:16px;
+	font-weight: 600;
+	background-color: #1a76bb;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	float: right;
+}
+
+.product_btn:hover{
+	
+	border-radius: 0px !important;
+	font-size:16px;
+	font-weight: 600;
+	background-color: #fff;
+	color: #1a76bb;
+}
+
+.product_Icon_col{
+	float:left;
+	padding-left: 5%;
+}
+
+.prodcut_icon_img{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding-left: 15%;
+	width: 50%;
+}
+
+.icon_text{
+	font-size: 14px;
+	color: #1a76bb;
+	font-weight: 400;
+	text-align: center;	
+}
+.product_color_image {
+	display:inline-block;
+    width:30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    cursor:pointer;
+   margin-top:-4%;
+}
+.product_color_image.selected{
+    border-color: blue;
+}
+/*Product End*/
+
+
+
+/* CONTACT Lense Aside Start*/
+.contact_lense_aside {
+	padding-left:0px;
+	padding-right:0px;
+	float:left;
+}
+
+.btn_brand_contactlense_category{
+	font-size: 17px;
+	font-weight: 900;
+	color: #fff;
+	text-decoration: none !important;
+	text-align: left;
+	background-color:#61c2e5 !important;
+	border-radius: 0 !important;
+	
+}
+
+.btn_brand_contactlense_category:hover{
+	text-decoration: none !important;
+	color:#fff;
+}
+
+.card {
+	border-radius: 0;
+}
+
+.card-header{
+	background-color: #61c2e5 !important;
+	padding:0px;
+}
+
+.brand_contactlense_category_ul{
+	
+	margin-top: 10%;
+	margin-bottom: 10%;
+	list-style: none;
+	padding-left: 1%;
+	padding-right: 1%;
+	margin-left: 8%;
+}
+
+.brand_contactlense_category_ul_list{
+	color: #333;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 2%;
+}
+.brand_contactlense_category_ul_list_link{
+	color: #333;
+}
+.brand_contactlense_category_ul_list_link:hover{
+	color: #1a76bb;
+	text-decoration: none;
+}
+
+.category_underline{
+	color: #333;
+	width: 90%;
+	margin-left: 0px;
+	border-width: 2px;
+	
+}
+
+/* CONTACT Lense Aside End*/
+
+/* Contact lense Shop CSS Start */
+
+.contact_shop_col2{
+	padding-right:0px;
+}
+
+.tab_description_col{
+	
+	float: left;
+	background-color: #fff;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.tab_contactlense_heading_div2{
+	float: right;
+}
+
+.tab_description{
+	margin-bottom: 10%;
+}
+
+.contact_lense_shop_heading_col{
+	float:left;
+	padding-right: 0px;
+	margin-top: 1%;
+}
+
+.contac_lense_shop_tab_col{
+	float:left;
+	padding-left: 0px;
+	padding-right: 0px;	
+	background-color: #ccc;
+}
+
+.contac_lense_shop_tab_col_ul{
+	width: 100%;
+}
+
+
+.contac_lense_shop_tab_col_ul_list{
+	width: 50%;
+}
+
+.contac_lense_shop_tab_col_ul_link{
+	color: #333;
+	font-weight: 600;
+	border-radius: 0 !important;
+	text-align: center;
+	padding-top: 10%;
+	padding-bottom: 12%;
+	border-bottom-width:0px !important;
+	border-color: #ccc !important;
+}
+
+
+.contact_lense_shop_heading{
+	border-bottom: solid 1px #ccc;
+	font-size: 28px;
+	padding-bottom: 0.5%;
+}
+
+.my_tab_content {
+	position: absolute !important;
+	width:100% !important;
+}
+
+.contact_lense_filter_col1{
+	float:left;
+	padding-left: 0px;
+
+}
+
+.contact_lense_filter_col2{
+	float:left;
+	padding-left: 0px;
+	
+}
+
+.contact_lense_shop_filter_col{
+	margin-top: 5%;	
+
+}
+
+.contact_lense_filter_col{
+	padding-top: 10%;
+}
+
+.Contact_filter_heading{
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: 3%;
+}
+
+.contact_lense_filter{
+	width: 90%;
+	border-radius: 0px;
+	color: #1a76bb;
+	font-size: 14px !important;
+	font-weight: 600;
+	
+}
+
+.contact_lense_filter_option{
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.contact_lense_col{
+	float:left;
+	padding-right: 0px;
+	
+}
+
+.contact_lense_btn{
+	border-radius:0px !important;
+	font-size:13px;
+	font-weight:700;
+	background-color:#61c2e5 !important;
+	border-width:0px !important;
+	padding-bottom: 10%;
+	padding-top: 10%;
+	
+}
+
+.contact_lense_btn:hover{
+	background-color:#ccc !important;
+	color:#333;
+	
+}
+.contact_lense_btn_active {
+	border-radius:0px !important;
+	font-size:13px;
+	font-weight:700;
+	border-width:0px !important;
+	padding-bottom: 10%;
+	padding-top: 10%;
+	background-color:#ccc !important;
+	color:#333;
+}
+
+.contact_lense_shop_col{
+	margin-top: 4%;
+	margin-bottom: 5%;
+}
+
+.contact_shop_tab2_col{
+	padding-right:0px;
+}
+
+.contact_description_text1{
+	padding-top:3%;
+}
+
+.tab2_description_heading{
+	font-size: 22px;
+}
+
+.tab2_description_sub_heading{
+	margin-top: 3%;
+	color: #1a76bb;
+	font-weight: 400;
+}
+
+.contact_description_sub_text{
+	font-size: 14px;
+}
+
+.contact_shop_description_img_col{
+	float:left;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.contact_shop_description_img{
+	width:100%;
+}
+
+.contact_shop_description_col{
+	margin-bottom: 30%;
+	margin-top:5%;
+}
+/* Contact lense Shop CSS End */
+
+
+/* Solution Shop CSS Start */
+.soultion_btn{
+	width: 100%;
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-bottom: 7% !important;
+	padding-top: 6.5% !important;
+}
+
+.solution_description_heading{
+	margin-bottom: 3%;
+}
+
+/* Solution Shop CSS End */
+
+/*Glasses Shop CSS Start */
+
+.glasses_slider_container{
+	margin-top: 2%;
+}
+.glasses_slider_img{
+	width: 100%;
+}
+
+.glasses_slider_img:hover{
+	opacity: 0.8;
+}
+
+.glasses-slider{
+	padding-left:1px;
+	padding-right: 2px;
+}
+
+.glasses_client_container{
+	margin-top:1%;
+	margin-bottom: 1%;
+}
+.glasses_clients_img{
+	width:8%;
+	margin-left: 5%;
+	opacity: 0.6;
+}
+
+.glasses_clients_img:hover{
+	opacity: 0.3;
+	cursor: pointer;
+}
+
+.glasses_slider_col{
+	padding-right: 0px;
+}
+
+.glasses_main_heading_col{
+	border:solid 1px #ccc;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+
+.glasses_main_heading{
+	font-size:30px;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.gender_checkbox{
+	width:18px;
+	height: 18px;
+	margin-left: 15px !important;
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+	
+}
+
+.gender_checkbox_lbl{
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+}
+
+/* Bootsnip Gender Checkbox CSS Start */
+
+.span_pseudo, .chiller_cb span:before, .chiller_cb span:after {
+  content: "";
+  display: inline-block;
+  background: #fff;
+  width: 0;
+  height: 0.2rem;
+  position: absolute;
+  transform-origin: 0% 0%;
+}
+
+.chiller_cb {
+  position: relative;
+  height: 2rem;
+  display: flex;
+  display:inline;
+  align-items: center;
+}
+.chiller_cb input {
+  display: none;
+}
+.chiller_cb input:checked ~ span {
+  background: #1a76bb;
+  border-color: #1a76bb;
+}
+.chiller_cb input:checked ~ span:before {
+  width: 1rem;
+  height: 0.15rem;
+  transition: width 0.1s;
+  transition-delay: 0.3s;
+}
+.chiller_cb input:checked ~ span:after {
+  width: 0.4rem;
+  height: 0.15rem;
+  transition: width 0.1s;
+  transition-delay: 0.2s;
+}
+.chiller_cb input:disabled ~ span {
+  background: #ececec;
+  border-color: #dcdcdc;
+}
+.chiller_cb input:disabled ~ label {
+  color: #dcdcdc;
+}
+.chiller_cb input:disabled ~ label:hover {
+  cursor: default;
+}
+.chiller_cb label {
+  padding-left: 2rem;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  margin-bottom:0;
+}
+.chiller_cb span {
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 2px solid #ccc;
+  position: absolute;
+  left: 0;
+  transition: all 0.2s;
+  z-index: 1;
+  box-sizing: content-box;
+}
+.chiller_cb span:before {
+  transform: rotate(-55deg);
+  top: 1rem;
+  left: 0.37rem;
+}
+.chiller_cb span:after {
+  transform: rotate(35deg);
+  bottom: 0.35rem;
+  left: 0.2rem;
+}
+
+.glasses_bootsnip_checkbox_div{
+	margin-top: 10%;
+	margin-bottom: 10%;
+	padding-left: 5%;
+}
+
+/* Bootsnip Gender Checkbox CSS End */
+
+
+/* Bootsnip Brand Checkbox CSS Start */
+
+
+.span_pseudo, .chiller_bc span:before, .chiller_bc span:after {
+  content: "";
+  display: inline-block;
+  background: #fff;
+  width: 0;
+  height: 0.2rem;
+  position: absolute;
+  transform-origin: 0% 0%;
+}
+
+.chiller_bc {
+  position: relative;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}
+.chiller_bc input {
+  display: none;
+}
+.chiller_bc input:checked ~ span {
+  background: #1a76bb;
+  border-color: #1a76bb;
+}
+.chiller_bc input:checked ~ span:before {
+  width: 1rem;
+  height: 0.15rem;
+  transition: width 0.1s;
+  transition-delay: 0.3s;
+}
+.chiller_bc input:checked ~ span:after {
+  width: 0.4rem;
+  height: 0.15rem;
+  transition: width 0.1s;
+  transition-delay: 0.2s;
+}
+.chiller_bc input:disabled ~ span {
+  background: #ececec;
+  border-color: #dcdcdc;
+}
+.chiller_bc input:disabled ~ label {
+  color: #dcdcdc;
+}
+.chiller_bc input:disabled ~ label:hover {
+  cursor: default;
+}
+.chiller_bc label {
+  padding-left: 2rem;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  margin-bottom:0;
+}
+.chiller_bc span {
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 2px solid #ccc;
+  position: absolute;
+  left: 0;
+  transition: all 0.2s;
+  z-index: 1;
+  box-sizing: content-box;
+}
+.chiller_bc span:before {
+  transform: rotate(-55deg);
+  top: 1rem;
+  left: 0.37rem;
+}
+.chiller_bc span:after {
+  transform: rotate(35deg);
+  bottom: 0.35rem;
+  left: 0.2rem;
+}
+
+.bootsnip_brand_checkbox_div{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding-left: 5%;
+}
+
+/* Bootsnip Brand Checkbox CSS End */
+
+/* Shape Checkbox CSS Start */
+
+.glasses_checkbox_img{
+	width: 25%;
+}
+
+
+/* Shape Checkbox CSS End */
+
+
+
+/* Frames Checkbox CSS Start */
+
+
+.span_pseudo, .chiller_fc span:before, .chiller_fc span:after {
+  content: "";
+  display: inline-block;
+  background: #fff;
+  width: 0;
+  height: 0.2rem;
+  position: absolute;
+  transform-origin: 0% 0%;
+}
+
+.chiller_fc {
+  position: relative;	
+  height: 2rem;
+  display: flex;
+  display:inline;
+  align-items: center;
+ 
+}
+.chiller_fc input {
+  display: none;
+}
+.chiller_fc input:checked ~ span {
+  background: #1a76bb;
+  border-color: #1a76bb;
+}
+.chiller_fc input:checked ~ span:before {
+  width: 1rem;
+  height: 0.15rem;
+  transition: width 0.1s;
+  transition-delay: 0.3s;
+}
+.chiller_fc input:checked ~ span:after {
+  width: 0.4rem;
+  height: 0.15rem;
+  transition: width 0.1s;
+  transition-delay: 0.2s;
+}
+.chiller_fc input:disabled ~ span {
+  background: #ececec;
+  border-color: #dcdcdc;
+}
+.chiller_fc input:disabled ~ label {
+  color: #dcdcdc;
+}
+.chiller_fc input:disabled ~ label:hover {
+  cursor: default;
+}
+.chiller_fc label {
+  padding-left: 2rem;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  margin-bottom:0;
+}
+.chiller_fc span {
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 2px solid #ccc;
+  position: absolute;
+  left: 0;
+  transition: all 0.2s;
+  z-index: 1;
+  box-sizing: content-box;
+}
+.chiller_fc span:before {
+  transform: rotate(-55deg);
+  top: 1rem;
+  left: 0.37rem;
+}
+.chiller_fc span:after {
+  transform: rotate(35deg);
+  bottom: 0.35rem;
+  left: 0.2rem;
+}
+
+.frame_checkbox_div{
+	margin-top: 5%;
+	padding-left: 5%;
+}
+
+.frame_checkbox_div_end{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding-left: 5%;
+}
+
+.frame_checkbox_col2_div{
+	margin-left:10%;
+	
+}
+
+.frame_checkbox_col2_div4{
+	margin-left:5%;
+}
+
+.frame_checkbox_col2_div8{
+	margin-left: 1%;
+}
+
+.frame_checkbox_col2_div12{
+	margin-left: 7%;
+}
+
+.frame_checkbox_col2_div16{
+	margin-left: 7%;
+}
+
+/* Frames Checkbox CSS End */
+
+/* Material Checkbox CSS Start */
+
+.material_checkbox_col2_div2{
+	margin-left: 13%;
+}
+
+.material_checkbox_col2_div3{
+	margin-left:10%;
+}
+
+.material_checkbox_div_end{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding-left: 5%;
+}
+
+/* Material Checkbox CSS End */
+
+/* Glasses Shop CSS End */
+
+/* Sunglasses Shop Start */
+
+.sunglasses_title_img{
+	width:40%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+.sunglasses_gender_div2{
+	margin-left:20%;
+}
+
+.sunglasses_color_div{
+	margin-left:10%;
+}
+
+.sunglasses_material_checkbox_col2_div{
+	margin-left: 20%;
+}
+
+.material_sunglasses_checkbox_col2_div4{
+	margin-left: 3%;
+}
+
+.material_sunglasses_checkbox_col2_div6{
+	margin-left: 25%;
+}
+
+.material_sunglasses_checkbox_col2_div8{
+	margin-left:20%;
+}
+/* Sunglasses Shop End */
+
+/*Eye Care Shop CSS Start */
+
+.eyecare_shop_description_img{
+	width:100%;
+}
+
+.eyecare_btn{
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+.eyecare_btn_large{
+	padding-bottom: 6.5% !important;
+	padding-top: 7% !important;
+
+}
+
+/* Eye Care Shop CSS End /*
+
+/* Product Image Description Section Start  */
+
+.product_heading{
+	font-size: 26px;
+	font-weight: 600;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	color:#1a76bb;
+}
+
+.product_price_heading{
+	font-size: 28px;
+	font-weight: 400;
+	display: inline;
+}
+
+.product_pack_heading{
+	float: right;
+	padding-right: 3%;
+	color: #ccc;
+}
+
+.product_pack_heading:hover{
+	text-decoration: none;
+	
+}
+
+.underline{
+	margin-top: 2%;
+	margin-bottom: 0%;
+}
+
+.product_pack_sub_heading{
+	font-size: 14px;
+	float: left;
+
+}
+.product_review_sum{
+	float: right;
+	padding-right: 3%;
+	font-size: 14px;
+}
+
+.contactlense_shop_product_img{
+	margin-top: 3%;
+
+}
+
+.product_question_link{
+	padding-left: 5%;
+	padding-right: 3%;
+	font-size: 13px;
+	color: #1a76bb;
+	text-decoration: underline;
+}
+
+.product_question_col{
+	float:left;
+}
+/*temp step-1 */
+
+
+.product_section_heading_col{
+		float: left;
+		margin-top: 10%;
+		margin-bottom: 5%;
+		padding-right: 10%;
+}
+
+.production_section_heading_col1{
+	float:left;
+	border-right: solid 1px #ccc;
+}
+
+.production_section_heading_col2{
+	float:left;
+	padding-left: 10%;
+}
+
+.product_section_heading{
+	font-size: 17px;
+	text-align: center;
+	margin-top:5%;
+	
+}
+
+.product_details_col{
+	padding-left: 0px;
+	float: left;
+}
+
+.product_details_heading{
+	font-size:24px;
+}
+
+/* Product Image Description Section End */
+
+/* New Product Page CSS Start */
+/*Slider Start*/
+.product2_size {
+	text-transform:capitalize;
+}
+.product_item_sku {
+	font-family:Verdana, Geneva, sans-serif;
+	margin-top:2%;	
+}
+.all_main_description {
+	margin-top:5%;
+}
+.product_main_info_div {
+	margin-top:2%;	
+}
+.pad-0 {
+	paddin-left:0px;
+	padding-right:0px;	
+}
+.dst {
+   width:100%;
+   margin-top:5%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+#custCarousel .carousel-indicators {
+    position: static;
+    margin-top: 2%;
+}
+
+#custCarousel .carousel-indicators>li {
+    width: 30%;
+}
+
+#custCarousel .carousel-indicators li img {
+    display: block;
+	border:solid 2px #333;
+}
+
+#custCarousel .carousel-indicators li.active img {
+    opacity: 1;
+}
+
+#custCarousel .carousel-indicators li:hover img {
+    opacity: 0.75;
+}
+
+.carousel-item img {
+    width: 80%;
+}
+/*Slider End*/
+/*Product Color Start*/
+
+.main_product_colors_div {
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.main_product_colors_div2 {
+	width:80% !important; 
+	padding-top:1%;
+	padding-bottom:1%;
+}
+
+
+.main_product_color_image {
+	display:inline-block;
+    width:30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    cursor:pointer;
+	margin-left:-1%;
+}
+
+.main_product_color_image.selected{
+    border-color: blue;
+}
+
+/*Product Color End*/
+
+.product_option_tbl{
+	width: 100%;
+}
+
+.product_tbl_data{
+	text-align: right;
+}
+
+.product_amount_heading{
+	font-size: 22px;
+	font-weight: 400;
+	float: left;
+}
+
+.product_main_heading{
+	font-size: 24px;
+	font-weight: lighter;
+	margin-top: 3%;
+}
+
+.product_review_img{
+	width: 4%;
+}
+
+.review_rate_link{
+	color:#333;
+	font-size: 17px;
+	text-decoration: underline;
+	margin-left: 3%;
+}
+
+.product_description_heading{
+	margin-top: 3%;
+	text-decoration: underline;
+}
+
+.product_price_section_col{
+	border: solid 1px #ccc;
+}
+
+
+.product_list_col{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 3%;
+}
+
+.product_description_btn{
+	background-color: #fff !important;
+	color: #333;
+	line-height: 25px;
+	border-radius: 0px;
+	border-color: #ccc;
+	width: 100%;
+	font-size: 17px;
+	text-align: left !important;
+}
+
+.product_description_btn:hover{
+	background-color: #fff !important;
+	color: #333;
+	line-height: 25px;
+	border-radius: 0px;
+	border-color: #ccc;
+	width: 100%;
+	font-size: 17px;
+	
+	
+}
+
+.product_list_text{
+	margin-top: 5%;
+	margin-bottom: 3%;
+	color: #808080;
+}
+
+
+.product_sub_col{
+	padding-left: 0px;
+}
+
+.product_input_lbl{
+	border-radius: 0px;
+	color: #333;
+	text-align: center;
+}
+
+.mb-2, .mr-sm-2{
+	margin-bottom: 0px !important;
+}
+
+.my-1, .mr-sm-2{
+	margin-top: 0px !important;
+}
+
+.product_select_option{
+	border-radius: 0px;
+}
+
+.product_price_new{
+	float: right;
+	margin-top: 0%;
+	margin-right: 3%;
+}
+
+.product_price_btn{
+	border-radius: 0px;
+	font-size: 17px;
+	font-weight: 600;
+	background-color: #1a76bb;
+}
+
+.product_price_btn:hover{
+	border-radius: 0px;
+	font-size: 17px;
+	font-weight: 600;
+	background-color: #fff;
+	color: #1a76bb;
+}
+
+.product_last_col{
+	margin-bottom: 3%;
+}
+
+.product_paragraph{
+	font-size:13px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 1%;
+}
+
+/*Product Slider CSS Start*/
+
+
+
+/*Product Slider CSS End*/
+
+/*Sunglasses Frame Section Start*/
+
+.frame_info_heading{
+	margin-top:10%;
+	margin-bottom: 10%;
+	font-size: 24px;
+	font-weight: 600;
+	color: #1a76bb;
+}
+
+.frame_info_table{
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+.frame_info_list{
+	font-size: 17px;
+	font-weight: 600;
+	
+}
+
+.frame_info_List_txt{
+	font-size: 17px;
+}
+
+.frame_info_btn{
+	border-radius: 0px;
+	background-color: transparent;
+	font-size: 17px;
+	text-transform: uppercase;
+	color: #1a76bb;
+	margin-bottom: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.frame_info_img{
+	width: 100%;
+	margin-top: 15%;
+	margin-bottom: 10%;
+}
+
+.frame_info_img2{
+	width: 100%;
+	margin-top: 35%;
+	margin-bottom: 20%;
+}
+
+.product_available_lense_tab_btn{
+	background-color: transparent !important;
+	color: #1a76bb !important;
+	border-radius: 0px !important;
+	border:solid 2px #1a76bb;
+	font-size: 17px;
+	text-align: center !important;
+	min-width:160px;
+	text-transform: uppercase;
+
+}
+.product_available_lense_tab_li {
+	margin-left:3%;
+	margin-top:3%;
+}
+
+.product_available_lense_tab_btn:hover{
+	background-color: #1a76bb !important;
+	color: #fff !important;
+	border-radius: 0px !important;
+	border:solid 1px #1a76bb;
+	font-size: 17px;
+	text-align: center !important;
+	
+}
+
+.product_available_lense_tab_txt{
+	font-size: 16px;
+	margin-top: 5%;
+	margin-left: 0%;
+}
+
+.avialable_lense_img{
+	width: 80%;
+	float: right;
+	margin-top: 15%;
+	
+}
+
+.available_lense_heading{
+	font-size: 24px;
+	font-weight: 600;
+	color: #1a76bb;
+	margin-left:0%;
+	margin-top: 5%;
+}
+
+.frame_container{
+	border-top: solid 4px #ccc;
+	border-bottom: solid 4px #ccc;
+	margin-top:8%;
+}
+
+/* Sunglasses Frame Section End */
+
+/*Product Review Testimonial CSS Start */
+
+.product_review_tab_col{
+	margin-top: 3%;
+	margin-bottom: 3%;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: #fff;
+}
+
+.product_review_tab_col1{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: #ccc;
+}
+
+.product_review_tab_a{
+	font-size: 14px;
+	text-transform: uppercase;
+	background-color: transparent !important;
+	color:#1a76bb;
+	border: 0px !important;
+}
+
+
+.product_review_tab_a:hover{
+	font-size: 14px;
+	text-transform: uppercase;
+	background-color: transparent;
+	color:#1a76bb;
+	border: 0px;
+}
+
+.product_review_tab_ul{
+	border: 0px !important;
+}
+
+.product_lense_tbl{
+	width: 100%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.product_lense_tbl_data{
+	padding-bottom: 2%;
+}
+
+.product_testimonial_col{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.product_testimonial_heading{
+	padding-top: 5%;
+	
+}
+
+.testimonial_heading{
+	margin-top: 3%;
+	font-size: 24px;
+	font-weight: 400;
+	padding-bottom: 1%;
+	border-bottom:solid 1px #ccc;
+}
+
+.testimonial_heading2{
+	margin-top: 7.5%;
+	font-size: 24px;
+	font-weight: 400;
+	padding-bottom: 1%;
+	border-bottom:solid 1px #ccc;
+}
+.product_img{
+	width: 100%;
+	margin-top: 20%;
+}
+
+
+/*Product Review Testimonials CSS End */
+
+
+/*Product Carousel CSS Start *
+
+.product_carousel_heading{
+	font-size: 28px;
+	font-weight: 600;
+	text-align: center;
+	color: #1a76bb;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.carousel .item {
+	min-height: 330px;
+    text-align: center;
+	overflow: hidden;
+}
+.carousel .item .img-box {
+	height: 160px;
+	width: 100%;
+	position: relative;
+}
+.carousel .item img {	
+	max-width: 100%;
+	max-height: 100%;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+.carousel .item h4 {
+	font-size: 18px;
+	margin: 10px 0;
+}
+.carousel .item .btn {
+	color: #333;
+    border-radius: 0;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin-top: 5px;
+    line-height: 16px;
+}
+.carousel .item .btn:hover, .carousel .item .btn:focus {
+	color: #fff;
+	background: #000;
+	border-color: #000;
+	box-shadow: none;
+}
+.carousel .item .btn i {
+	font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.carousel .thumb-wrapper {
+	text-align: center;
+}
+.carousel .thumb-content {
+	padding: 15px;
+}
+.carousel .carousel-control {
+	height: 100px;
+    width: 40px;
+    background: none;
+    margin: auto 0;
+    background: #1A76BB;
+}
+.carousel .carousel-control i {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -16px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: none;
+    font-weight: bold;
+}
+.carousel .item-price {
+	font-size: 13px;
+	padding: 2px 0;
+}
+.carousel .item-price strike {
+	color: #999;
+	margin-right: 5px;
+}
+.carousel .item-price span {
+	color: #86bd57;
+	font-size: 110%;
+}
+.carousel .carousel-control.left i {
+	margin-left: -3px;
+}
+.carousel .carousel-control.left i {
+	margin-right: -3px;
+}
+.carousel .carousel-indicators {
+	bottom: -50px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 20px;
+	height: 2px;
+	margin: 4px;
+	border-radius: 100%;
+	border-color: #1a76bb;
+}
+.carousel-indicators li {	
+	background: #1a76bb;
+}
+.carousel-indicators li.active {	
+	background: #1a76bb;
+}
+.star-rating li {
+	padding: 0;
+}
+.star-rating i {
+	font-size: 14px;
+	color: #ffc000;
+}
+
+
+/*Product Carousel CSS End */
+
+
+/* New Product Page CSS End */
+
+/* Account Page CSS Start */
+
+.myaccount_heading{
+	font-size:24px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.account_slider_img{
+	width: 100%;
+}
+
+
+.account_slider_img:hover{
+	width: 100%;
+	opacity: 0.8;
+}
+
+.account_col{
+	padding-left: 0px;
+}
+
+.account_col2{
+	margin-top: 3%;
+}
+
+.account_col3{
+	margin-bottom:5%;
+}
+
+.account_slider_img2{
+	margin-left:auto;
+	margin-right: auto;
+	display: block;
+}
+
+.account_img_txt{
+	font-size:17px;
+	text-align: center;
+	margin-top: 5%;
+}
+
+/*Account Page CSS End */
+
+/* Personal Details CSS Start */
+
+.detail_main_col{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	border:solid 1px #ccc;
+}
+
+.my_details_col{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.detail_lbl{
+	font-size:13px;
+	color: #ccc;
+	
+}
+
+.detail_input{
+	font-size: 12px;
+	border-radius: 0px;
+	
+}
+
+.detail_btn_col{
+	margin-top: 3%;
+	margin-bottom:3%;
+}
+
+.detail_btn{
+	background-color: #1a76bb;
+	width: 40%;
+	border-radius: 0px;
+	line-height:  17px;
+	font-size: 17px;
+	font-weight: 700;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.detail_btn:hover{
+	background-color: #fff;
+	color: #1a76bb;
+	width: 40%;
+	border-radius: 0px;
+	line-height:  17px;
+	font-size: 17px;
+	font-weight: 700;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.mydetail_div1{
+	width:28%;
+	float:left;
+}
+
+.mydetail_div2{
+	width:36%;
+	float:left;
+	margin-left:1%;
+	margin-right:1%;
+
+}
+
+.mydetail_div3{
+	width:34%;
+	float:left;
+}
+
+.mydetail_div4{
+	width:25%;
+	float:left;
+}
+
+.mydetail_div5{
+	width:73%;
+	float:left;
+	margin-left:1%;
+	margin-right:1%;
+}
+
+.mydetail_div6{
+	width:60%;
+	float:left;
+}
+
+.mydetail_div7{
+	
+	width:38%;
+	float:left;
+	margin-left:1%;
+	margin-right:1%;
+	
+}
+
+/* Personal Details CSS End */
+
+/* Subscription CSS Start */
+
+.subscription_main_col{
+	padding-left:0px;
+}
+
+.subscription_sub_col1{
+	border:solid 1px #ccc;
+	
+}
+
+.subscription_sub_col2{
+	border:solid 1px #ccc;
+	padding-bottom: 0.5%;
+	
+}
+
+.subscription_txt1{
+	text-align: center;
+	margin-top: 3%;
+}
+
+.subscription_txt2{
+	text-align: center;
+	margin-bottom: 10%;
+	
+}
+
+.subscription_radio_option{
+	margin-left: 25%;
+	margin-bottom: 10%;
+}
+
+.subscription_input_box{
+	border-radius: 0px;
+	margin-left: 5%;
+	
+}
+
+.subscription_input_box2{
+	border-radius: 0px;
+	margin-left: 6%;
+	
+}
+
+
+.subscription_form{
+	margin-top:3%;
+	margin-bottom: 5%;
+}
+
+.subscription_col2{
+	margin-top: 3%;
+	margin-bottom: 5%;
+	border:solid 1px #ccc;
+}
+
+
+/* Subscription CSS End */
+
+/* Password CSS Start */
+
+.password_txt{
+	font-size: 14px;
+	padding-right: 0px;
+	padding-left: 3%;
+}
+
+.password_input_lbl{
+	width: 60%;
+	margin-left: 20%;
+	border-radius: 0px;
+	height: 35px;
+	font-size: 12px;
+	
+}
+
+.password_col{
+	border: solid 2px #ccc;
+	padding-top:3%;
+	padding-bottom: 10%;
+	margin-bottom: 3%;
+}
+
+.password_btn{
+	font-size: 17px;
+	text-transform: uppercase;
+	width: 40%;
+	line-height: 17px;
+	margin-left: 35%;
+	background-color: #1a76bb;
+	border-radius: 0px;
+}
+
+
+.password_btn:hover{
+	font-size: 17px;
+	text-transform: uppercase;
+	width: 40%;
+	line-height: 17px;
+	margin-left: 35%;
+	background-color: #fff;
+	color: #1a76bb;
+}
+
+
+/* Password CSS End */
+
+/* Prescription Verification */
+
+.prescription_div{
+	margin-top: 3%;
+}
+
+.prescription_txt{
+	color: #ccc;
+	font-size: 14px;
+}
+
+.prescription_col{
+	border-top: solid 1px #ccc;
+	border-bottom:solid 1px #ccc;
+	padding-top: 3%;
+	
+	
+}
+
+.prescription_date_col{
+	padding-left:0px;
+	padding-right: 0px;
+	
+}
+
+.prescription_add_col{
+	padding-bottom: 5%;
+	margin-bottom: 5%;
+	border: solid 2px #ccc;
+}
+
+.add_presc_btn{
+	width:30%;
+	font-size: 17px;
+	font-weight: 700;
+	border-radius: 0px;
+	background-color: #1a76bb;
+	margin-top: 3%;
+	margin-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.add_presc_btn:hover{
+	width:30%;
+	font-size: 17px;
+	font-weight: 700;
+	border-radius: 0px;
+	background-color: #fff;
+	color: #1a76bb;
+	margin-top: 3%;
+	margin-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.presc_txt{
+	text-align: center;
+}
+
+/* Prescription Verification */
+
+/* Optician Advice */
+
+
+.optical_advice_heading{
+	font-size:28px;
+	margin-top: 3%;
+}
+
+.optician_text_box{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 70%;
+	height: 3%;
+	border-radius: 0px;
+	font-size: 12px;
+}
+
+.optician_btn{
+	width: 30%;
+	font-weight: 600;
+	border-radius: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background-color: #1a76bb;
+	
+}
+
+
+.optician_btn:hover{
+	width: 30%;
+	font-weight: 600;
+	border-radius: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background-color: #fff;
+	color: #1a76bb;
+	
+}
+
+/*Opticain Advice End */
+
+/*Order Summary CSS Start */
+
+.ordersummary_col{
+	padding-top:1%;
+	padding-bottom: 5%;
+	border:solid 1px #ccc;
+}
+
+.ordersummary_btn{
+	width: 30%;
+	border-radius: 0px;
+	line-height: 20px;
+	font-size: 17px;
+	font-weight: 700;
+	background-color: #1a76bb;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+.ordersummary_btn:hover{
+	width: 30%;
+	border-radius: 0px;
+	line-height: 20px;
+	font-size: 17px;
+	font-weight: 700;
+	background-color: #fff;
+	color: #1a76bb;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+/*Order Summary CSS End */
+
+/* Product Carousel Start */
+
+.list-inline {
+  text-align: center;
+}
+.list-inline > li {
+  margin: 10px 5px;
+  padding: 0;
+}
+.list-inline > li:hover {
+  cursor: pointer;
+}
+.list-inline .selected img {
+  opacity: 1;
+  border-radius: 15px;
+}
+.list-inline img {
+  opacity: 0.5;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.list-inline img:hover {
+  opacity: 1;
+}
+
+.item > img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+/* Product Carousel End */
+
+
+/*Step1 CSS Start */
+
+.step1_img3{
+	width:100%;
+}
+
+.step2_img{
+	width:20%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+.step1_bifocal {
+	float:left;	
+	cursor:pointer;
+	
+}
+.step1_bifocal_sub {
+	padding:2%;
+	background-color:#e6e6e6;
+	border-bottom:solid 8px #e6e6e6;
+	cursor:pointer;
+}
+.step1_bifocal_sub:hover {
+	border-color:#1a76bb;
+}
+.step1_varifocal {
+	float:left;
+	cursor:pointer;
+	
+	
+}
+.step1_varifocal_sub {
+	padding:2%;
+	background-color:#e6e6e6;
+	border-bottom:solid 8px #e6e6e6;
+	cursor:pointer;
+}
+.step1_varifocal_sub:hover {
+	border-color:#1a76bb;	
+}
+
+.step1_bifocal_des {
+	display:none;
+}
+.step1_bifocal_des_show {
+	display:block;
+}
+.step1_varifocal_des {
+	display:none;
+}
+.step1_varifocal_des_show {
+	display:block;
+}
+.my_hide {
+	display:none;	
+}
+
+.step1_col2{
+	padding-left: 0px;
+	padding-right: 10px;
+}
+
+.step1_col3{
+	padding-right: 0px;
+	padding-left: 10px;
+}
+
+.step1_col{
+	margin-top:3%;
+}
+.step1_col1{
+	margin-top:3%;
+}
+
+.step_img_main_col{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.step1_col2_div{
+	padding-bottom: 3%;
+}
+
+.step1_main_col2{
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.step_img_heading_col{
+	margin-top:3%;
+	margin-bottom: 3%;
+	background-color: #1a76bb;
+}
+
+.step1_heading4{
+	font-size: 26px;
+	font-weight: 700;
+	color: #115c99;
+	margin-top: 3%;
+	margin-bottom: 1%;
+}
+
+.step1_img_heading{
+	font-size:18px;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.step_sub_heading{
+	margin-left: 3%;
+	padding-top: 3%;
+	padding-bottom: 0%;
+	font-size: 17px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.step_img{
+	width: 100%;
+	
+}
+
+.verifocal_img{
+	width: 100%;
+	padding-bottom: 3%;
+}
+
+
+.step_side_tbl{
+	width:100%;
+
+}
+
+.step_side_tbl_col{
+	margin-bottom:5%;
+}
+
+.step_side_tbl_heading{
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.step_side_tbl_data{
+	text-align: right;
+}
+
+.step1_img{
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.step1_img2{
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.step1_heading{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 700;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.step1_heading2{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 600;
+	color: #DC143C;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.step1_heading3{
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.step1_text1{
+	text-align: center;
+	font-size: 13px;
+	
+}
+
+.step1_btn_col{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+
+.step1_pagination_btn{
+	float: right;
+	font-weight: 600;
+	border-radius: 0px;
+	color: #1a76bb;
+	
+}
+
+.step1_pagination_btn:hover{
+	float: right;
+	font-weight: 600;
+	border-radius: 0px;
+	color: #fff;
+	background-color: #1a76bb;
+	
+}
+
+.step1_pagination_btn1{
+	font-weight: 600;
+	border-radius: 0px;
+	color: #1a76bb;
+	
+}
+
+.step1_pagination_btn1:hover{
+	font-weight: 600;
+	border-radius: 0px;
+	color: #fff;
+	background-color: #1a76bb;
+	
+}
+
+.product_question_col_step_1 {
+	padding-left:1%;
+	padding-right:1%;
+	float:left;	
+}
+
+.product_question_col_step_1_sub {
+	padding-bottom:3%;
+	background-color:#e6e6e6;
+	border-bottom:solid 8px #e6e6e6;
+	cursor:pointer;
+}
+
+.product_question_col_step_1_sub:hover {
+	border-color:#1a76bb;
+}
+
+
+.step_1_main_rows {
+		padding-left:0px;
+		padding-right:0px;
+}
+/*Step 1 Mdeia End */
+
+
+/*Another method for selected*/
+/*Step 2*/
+.labl {
+	display:block;
+}
+.labl > .radioname{ /* HIDE RADIO */
+    display: none; /* Makes input not-clickable */
+    position: absolute; /* Remove input from document flow */
+}
+.labl > .radioname + .my_select_d1{ /* DIV STYLES */
+    cursor:pointer;
+    border:3px solid transparent;
+}
+.labl > .radioname:checked + .my_select_d1{ /* (RADIO CHECKED) DIV STYLES */
+    border-color:#1a76bb;
+}
+
+/*2*/
+.labl2 {
+	display:block;
+}
+.labl2 > .radioname2{ /* HIDE RADIO */
+    display: none; /* Makes input not-clickable */
+    position: absolute; /* Remove input from document flow */
+}
+.labl2 > .radioname2 + .my_select_d2{ /* DIV STYLES */
+    cursor:pointer;
+    border:3px solid transparent;
+}
+.labl2 > .radioname2:checked + .my_select_d2{ /* (RADIO CHECKED) DIV STYLES */
+    border-color:#1a76bb;
+}
+
+/*Step 2 End*/
+
+/* Step 1 */
+/*2*/
+.labl3 {
+	display:block;
+}
+.labl3 > .radioname3{ /* HIDE RADIO */
+    display: none; /* Makes input not-clickable */
+    position: absolute; /* Remove input from document flow */
+}
+.labl3 > .radioname3 + .my_select_d3{ /* DIV STYLES */
+    cursor:pointer;
+    border-bottom:8px solid transparent;
+}
+.labl3 > .radioname3:checked + .my_select_d3{ /* (RADIO CHECKED) DIV STYLES */
+    border-color:#1a76bb;
+}
+/* Step 1 End*/
+
+/*Another method end*/
+
+/*Step 2 Media Start*/
+.step2_img3{
+	width:100%;
+	max-height:160px;
+	min-height:160px;
+} 
+.step2_col_main_row {
+	padding-left:0px;
+	padding-right:0px;	
+}
+.step2_col {
+	padding-left:0px;
+	padding-right:0px;
+	padding-bottom:3%;
+}
+
+.product_question_col_step_2 {
+	padding-left:0.5%;
+	padding-right:0.5%;
+	float:left;	
+}
+
+.product_question_col_step_2_sub {
+	padding-bottom:1%;
+	background-color:#e6e6e6;
+	border-bottom:solid 8px #e6e6e6;
+	cursor:pointer;
+}
+
+.product_question_col_step_2_sub:hover {
+	border-color:#1a76bb;
+}
+
+.video_button_img{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	margin-top:3%;
+	margin-bottom:3%;
+}
+
+.step2_txt{
+	text-align:center;
+	font-size:16px;
+}
+.step2_txt2 {
+	text-align:center;
+	font-size:16px;
+	padding-left:10%;
+	padding-right:10%;
+}
+.glasses_main_div1 {
+	width:50%;
+	display:inline-block;
+	float:left;
+}
+.glasses_main_div2 {
+	width:50%;
+	display:inline-block;
+}
+
+.glasses_main_div3 {
+	width:33.33%;
+	display:inline-block;
+	float:left;
+}
+
+.glasses_main_div4 {
+	width:33.33%;
+	display:inline-block;
+	float:left;
+}
+
+.glasses_main_div5 {
+	width:33.33%;
+	display:inline-block;
+}
+
+.glasses_sub_div {
+	background-color:#fff;
+	margin:5%;
+	padding-top:3%;
+	padding-bottom:0px;
+	border:solid 1px #fff;
+}
+.glasses_sub_div:hover {
+	border-color:#1a76bb;
+}
+.step2_glass_img{
+	width:50%;
+	margin-left:auto; 
+	margin-right:auto; 
+	display:block;
+}
+.step2_glass_img2 {
+	width:80%;
+	margin-left:auto; 
+	margin-right:auto; 
+	display:block;	
+}
+
+.step2_glass_txt{
+	text-align:center;
+	margin-bottom:0px;
+	
+}
+
+/*Step 2 Media End*/
+
+/* My Address CSS Start */
+
+.myaddress_container{
+	padding-top: 5%;
+	padding-bottom: 3%;
+	margin-bottom: 5%;
+	background-color: #f5f5f5;
+	border: solid 1px #ccc;
+}
+
+
+.my_address_col{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.my_address_heading{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+
+.myaddress_lbl{
+	font-size: 14px;
+}
+
+.myaddress_txt_box{
+	border-radius: 0px;
+	font-size: 14px;
+}
+
+.myaddress_btn{
+	border-radius:0px;
+	font-size: 17px;
+	font-weight: 700;
+	background-color: #1a76bb;
+}
+
+.myaddress_btn:hover{
+	border-radius:0px;
+	font-size: 17px;
+	font-weight: 700;
+	background-color: #fff;
+	color: #1a76bb;
+}
+
+
+/* My Address CSS End */
+
+
+/* Step1 CSS End */
+
+/*My Basket CSS Start */
+.basket_empty_text {
+	margin-top:5%;
+	font-weight:600;
+	margin-bottom:5%;
+	text-align:center;	
+}
+.basket_count {
+	background-color:#F33;
+	color:#fff;
+	font-weight:900;
+	padding-left:18%;
+	padding-right:18%;
+	padding-top:3%;
+	font-size:12px;
+	margin-top:-5%;
+	padding-bottom:6%;
+	border-radius:50%;
+	margin-left: -10%;
+}
+.basket_icon {
+	margin-top:-90%;
+	margin-left:0;	
+}
+.heart_icon {
+	font-size:20px;
+	float:left;
+	margin-top:-55%;
+	margin-left:-40%;
+}
+.basket_count2 {
+	background-color:#F33;
+	color:#fff;
+	font-weight:900;
+	padding-left:18%;
+	padding-right:18%;
+	padding-top:3%;
+	font-size:12px;
+	margin-top:-5%;
+	padding-bottom:6%;
+	margin-left: -40%;
+	border-radius:50%;
+}
+.head_login {
+	margin-top:2%;
+}
+.carousel_container{
+	border-top:solid 2px #ccc;
+	margin-top: 3%;
+}
+
+.basket_side_col{
+	padding-bottom:5%;
+	margin-top: 15%;
+	border: solid 1px #ccc;
+}
+
+.basket_paragraph_heading{
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	padding-top: 3%;
+}
+
+.basket_heading{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.basket_tbl{
+	width: 100%;
+}
+
+.basket_tbl_data{
+	text-align: center;
+}
+
+.basket_product_img{
+	width:35%;
+}
+
+.basket_product_remove{
+	text-align:center;
+}
+
+.basket_product_quantity{
+	border-radius: 0px;
+	width: 85%;
+}
+
+.basket_side_tbl{
+	width: 100%;
+}
+
+.basket_price{
+	text-align: right;
+}
+
+.basket_total_price{
+	text-align:right;
+	font-size: 18px;
+	font-weight: 700;
+	padding-top: 10%;
+}
+
+.basket_total_price_heading{
+	font-size: 17px;
+	font-weight: 700;
+	padding-top: 10%;
+
+}
+
+.basket_btn{
+	border-radius: 0px;
+	background-color: #1a76bb;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 700;
+	margin-top: 5%;
+
+}
+
+.basket_btn:hover{
+	border-radius: 0px;
+	background-color: #fff;
+	color: #1a76bb;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 700;
+	margin-top: 5%;
+
+}
+
+
+/* My basket CSS End */
+
+/* Confirm Order */
+
+.confirm_order_btn{
+	font-size:17px;
+	font-weight: 600;
+	width: 80%;
+	border-radius: 0px;
+	background-color: #1a76bb;
+	margin-top: 3%;
+	margin-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.confirm_order_btn:hover{
+	font-size:17px;
+	font-weight: 600;
+	width: 80%;
+	border-radius: 0px;
+	background-color: #fff;
+	border: solid 1px #1a76bb;
+	color: #1a76bb;
+	margin-top: 3%;
+	margin-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+
+.order_img{
+	width:60%;
+}
+
+
+.checkout_container{
+	padding-top: 5%;
+	padding-bottom: 3%;
+	margin-bottom: 5%;
+	
+}
+
+.checkout_heading_col{
+	margin-top: 5%;
+}
+
+.checkout_main_heading{
+	font-size: 18px;
+	margin-bottom: -1%;
+}
+
+.checkout_heading{
+	font-size:14px;
+	text-align: center;
+	
+}
+
+.checkout_sub_heading{
+	font-size: 17px;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.checkout_txt{
+	font-size:14px;
+	
+}
+
+.checkout_radiobtn_txt{
+	font-size: 16px;
+	margin-left: 5%;
+	color: #ccc;
+}
+
+.checkout_radiobtn_div{
+	margin-bottom: 5%;
+}
+
+/*Confirm Order End */
+
+/* Eye Care Hub Start */
+
+.eye_care_heading_col{
+	border-bottom:solid 1px #e5e5e5;
+	margin-top: 3%;
+	margin-bottom: 2%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.eye_hub_heading{
+	font-size:26px;
+	
+	
+}
+
+.eye_hub_contact_col{
+	margin-bottom: 3%;
+	padding-top:3%;
+	padding-bottom: 3%;
+	background-image: url( "../images/Help/Eye-care-hub-home-2.jpg");
+	background-position: top right;
+    background-repeat: no-repeat;
+	background-color: #f5f5f5;
+}
+
+.eye_hub_glasses_col{
+	margin-bottom: 3%;
+	padding-top:3%;
+	padding-bottom: 3%;
+	background-image: url(  "../images/Help/eyecarehub_glasses.png");
+	background-position: top right;
+    background-repeat: no-repeat;
+	background-color: #f2f5fc;
+}
+
+.eye_hub_children_col{
+	margin-bottom: 3%;
+	padding-top:3%;
+	padding-bottom: 3%;
+	background-image: url("../images/Help/ChildEye.png");
+	background-position: top right;
+    background-repeat: no-repeat;
+	background-color: #f5f5f5;
+	background-size: cover;
+	
+}
+
+.eye_hub_guideto_col{
+	margin-bottom: 3%;
+	padding-top:3%;
+	padding-bottom: 3%;
+	background-color: #f5f5f5;
+    background-position: top right -20px;
+    background-repeat: no-repeat;
+	background-image: url( "../images/Help/Eye-care-hub-home-6.jpg");
+	
+}
+
+
+/* Eye Care Hub End */
+
+
+/* Information CSS Start */
+
+/* Secure Online Shop CSS Start */
+
+.secure_img1{ 
+	margin-left:auto;
+	margin-right: auto;
+	display: block;
+}
+
+/* Secure Online Shop CSS End */
+
+/* Privacy CSS Start */
+
+.privacy_col{
+	border-bottom: solid 1px #ccc;
+	margin-bottom: 5%;
+	padding-bottom: 3%;
+	
+}
+
+/*Privacy CSS End */
+
+/*Terms & Condition CSS Start */
+
+.termsncondition_heading{
+	color: #014f7f;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+/* Terms & Condition CSS End */
+
+/*Price Match Start */
+
+.price_match_heading{
+	margin-top:3%;
+	margin-bottom: 2%;
+	font-size: 24px;
+}
+
+ .bullets-blue-circle-bg li, .static-content-part ol.bullets-blue-circle-bg li, ol.bullets-blue-circle-bg li {
+    padding: 0 0 4px 35px;
+    margin-bottom: 7px;
+    list-style: none!important;
+    list-style-type: none!important;
+}
+
+.bullets-blue-circle-bg li.one {
+    background: url( ../images/Information/bullets-bg-circle-gradient-1.png) top left no-repeat;
+}
+
+.bullets-blue-circle-bg li.two {
+    background: url( ../images/Information/bullets-bg-circle-gradient-2.png) top left no-repeat;
+}
+
+.bullets-blue-circle-bg li.three {
+    background: url( ../images/Information/bullets-bg-circle-gradient-3.png) top left no-repeat;
+}
+
+.bullets-blue-circle-bg li.four {
+    background: url( ../images/Information/bullets-bg-circle-gradient-4.png) top left no-repeat;
+}
+
+.bullets-blue-circle-bg li.five {
+    background: url( ../images/Information/bullets-bg-circle-gradient-5.png) top left no-repeat;
+}
+
+
+/*Price match End */
+
+/*Refund Policy Start */
+
+.panel-group {
+    margin-bottom: 0;
+}
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+}
+.panel-group .panel .panel-heading {
+    padding: 0;
+}
+.panel-group .panel .panel-heading h4 a {
+	border: solid 1px #DDDDDD;
+    background: #f5f5f5;
+    display: block;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 15px;
+    text-decoration: none;
+	color: #1a76bb;
+    transition: 0.15s all ease-in-out;
+}
+.panel-group .panel .panel-heading h4 a:hover, .panel-group .panel .panel-heading h4 a:not(.collapsed) {
+    /*background: #fff;*/
+    transition: 0.15s all ease-in-out;
+}
+.panel-group .panel .panel-heading h4 a:not(.collapsed) i:before {
+    content: "-";
+    font-size: 30px;
+    line-height: 10px;
+	
+}
+.panel-group .panel .panel-heading h4 a i {
+    color: #999;
+    font-size: 12px;
+}
+.panel-group .panel .panel-body {
+    padding-top: 0;
+}
+.panel-group .panel .panel-heading + .panel-collapse > .list-group,
+.panel-group .panel .panel-heading + .panel-collapse > .panel-body {
+    border-top: none;
+}
+.panel-group .panel + .panel {
+    border-top: none;
+    margin-top: 0;
+}
+
+
+/*Refund Policy End */
+
+/* Click & Collect Start */
+
+.click_row{
+	background-color:#1a76bb;
+}
+
+.click_row_txt{
+	color: #fff;
+	margin-top: 1%;
+	text-align: center;
+}
+
+/* Click & Collect End */
+
+/* Information CSS End */
+
+/* Guide CSS Start */
+
+.guide_multifocal_img{
+	width:100%;
+}
+
+.guide_face_img{
+	width: 100%;
+}
+
+/* Guide CSS End */
+
+/* Optician Brands CSS Start */
+
+.optician_brands_btn{
+	border-radius:0px;
+	border: 0px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 3%;
+	padding-right: 3%;
+	background-color: #def2f6;
+	color: #1a76bb;
+	font-size: 17px;
+	font-weight: 600;
+	margin-right: 2%;
+}
+
+.optician_brands_btn:hover{
+	border-radius:0px;
+	border: 0px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 3%;
+	padding-right: 3%;
+	background-color: #1a76bb;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 600;
+	margin-right: 2%;
+}
+
+.optician_brands_heading{
+	margin-top:3%;
+	margin-bottom: 3%;
+	font-size: 17px;
+}
+
+.optician_brands_tbl{
+	margin-top:3%;
+	margin-bottom: 5%;
+	background-color: #f7fbfc;
+}
+
+.optician_brand_tbl_heading{
+	background-color: #69cddf !important;
+	color: #fff;
+}
+
+.optican_brand_tbl_btn{
+	border: 0px;
+	border-radius: 0px;
+	background-color: #1a76bb;
+	font-weight: 600;
+}
+
+.optican_brand_tbl_btn:hover{
+	border: solid 1px #1a76bb;
+	border-radius: 0px;
+	background-color: #fff;
+	color: #1a76bb;
+	font-weight: 600;
+}
+
+/* Optician Brands CSS End */
+
+/*About Us Css Start */
+
+.about_us_img{
+	width:100%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.about_us_heading{
+	font-size:24px;
+}
+
+/* About US Css End */
+
+/* Favourite Page Start */
+
+.fav_main_row {
+	margin-left: auto;
+	margin-right: auto;
+	width:80%;
+	padding-top: 5%;
+	padding-bottom:5%;
+}
+.fav_main_title {
+	text-align: center;
+	text-transform: uppercase;
+}
+.fav_main_hr {
+	border-width:2px;
+	color:#333;
+	width:20%;
+	margin-bottom:3%;
+}
+
+/* Favourite Page End */
+
+/* Footer CSS Start */
+
+.footer_container{
+	background-color: #f9f9f9;	
+}
+
+.footer_social_row {
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.footer_col1{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.footer_social_div{
+	left:20%;
+	margin-left:5%;
+	
+}
+
+.footer_social_ul{
+	list-style:none;
+	display:inline;
+	
+	
+}
+
+.footer_social_ul_list{
+	font-size:12px;
+	line-height:14px;
+	padding-left:3%;
+	float:left;
+}
+.footer_social_ul_list_li {
+	color: #666;
+}
+
+.footer_social_col3{
+	padding-top:10px;
+	padding-bottom:10px;
+
+}
+
+.footer_social_div3{
+	display:inline-block;
+	float:right;
+	padding-right:5%;
+}
+
+.footer_recycle_icon {
+	float:left;
+}
+.footer_recycle_text {
+	float:left;
+	margin-top:1%;
+	padding-left:10px;
+}
+
+.footer_recycle_a{
+	font-size:14px;
+	color:#666;	
+	
+}
+
+.footer_recycle_a:hover{
+		color: #666;
+		text-decoration:underline;
+}
+
+/*footer Contact CSS Start */
+.footer_contact_container{
+	background-color:#f5f5f5;
+	
+}
+
+
+.footer_contact_row{
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.footer_heading{
+	font-size:17px;
+	border-bottom: solid 1px  #666666;
+	width:100%;
+	padding-top:10%;
+	padding-bottom:8%;
+	color:#666;
+}
+
+.footer_contact_ul{
+	list-style:none;
+	padding-left:5px;
+	margin-top:10%;
+	margin-bottom:10%;
+}
+
+.footer_contact_ul_list{
+	font-size:13px;
+	color:#333;
+	margin-bottom:1px;
+	
+}
+.footer_contact_ul_list_link{
+	color:#999;
+}
+
+.footer_contact_ul_list_link:hover{
+	text-decoration:none;
+	color:#1a76bb;
+}
+
+.footer_contact_img{
+	width:10%;	
+}
+
+.footer_contact_images_ul_list{
+	font-size:13px;
+	color:#333;
+	margin-bottom:10px;
+	
+}
+
+.footer_contact_col4_ul_list_link{
+	color:#1a76bb;
+}
+.footer_contact_col4_ul_list_link:hover{
+	text-decoration:none;
+}
+
+.footer_heading_contact{
+	font-size:17px;
+	border-bottom: solid 1px  #666666;
+	width:100%;
+	padding-top:7%;
+	padding-bottom:4%;
+	color:#666;
+}
+
+.footer_heading_timing{
+	font-size:12px;
+	font-weight:900;
+	margin-top:10%;	
+}
+
+.footer_paragraph_timing{
+	font-size:12px;
+	margin-bottom:1%;	
+}
+
+.footer_country_ul{
+	list-style:none;	
+}
+
+.footer-country_ul_list{
+		display:inline;	
+}
+
+.footer_country_img{
+	width:15%;	
+}
+
+.footer_country_ul{
+	
+	margin-top:5%;
+	margin-bottom:20%;
+	padding-left:10px;
+		
+}
+
+.footer_payment_img{
+	width:60%;
+	margin-top:5%;
+	margin-left:15%;
+	display:block;
+}
+
+.footer_contact_container3{
+	background-color:#d9dfe3;
+}
+
+.footer_copyrights_text{
+	float:left;
+	margin-top:2%;
+	margin-left:10%;
+	color:#666;
+	font-size:14px;
+}
+
+.footer_copyrights_text2{
+	float:left;
+	margin-top:2%;
+	margin-left:10%;
+	color:#666;
+	font-size:14px;		
+}
+
+.footer_copyrights_div{
+	float:left;
+}
+
+.footer_copyright_img{
+	float:left;
+	margin-top:1%;
+	margin-left:8%;
+	margin-bottom:1%;
+	width:6%;	
+}
+
+.footer_disscount_btn{
+	border-radius: 50% !important; 
+	margin-top: 2%;
+	font-size: 17px !important;
+	display: block;
+}
+
+/****************************** Responsive CSS Start ***********************************************/
+
+/* Responsive Home Page CSS Start */
+
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+ 
+  
+ 
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+@media (min-width: 1025px) and (max-width: 1280px) {
+ 
+  //CSS
+ 
+}
+
+*/
+
+@media (min-width: 1200px) and (max-width: 1250px){
+	.arrow_img_5{
+	margin-top:-1.9%;
+	margin-left:440px;
+	float:left;
+	}
+	
+	.mega_menu_d1 {
+	margin-top:0.6%;
+	position:absolute;
+	width:100%;
+	margin-left:-9%;
+	z-index:999999;
+	padding-top:0.6%;
+	padding-bottom:2%;
+	border:solid 1px #ccc;
+	}	
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+
+	.arrow_img {
+    margin-top: -2% !important;
+	margin-left: 80px;	
+    float: left;
+}
+	.arrow_img_2{
+		
+		margin-top:-4%;
+		margin-left:165px;
+		float:left;
+	}
+	
+	.arrow_img_3 {
+		margin-top:-4.8%;
+		margin-left:220px;
+		float:left;
+	}
+	
+	.arrow_img_4 {
+	margin-top:-2.3%;
+	margin-left:325px;
+	float:left;
+	}
+
+	.arrow_img_5{
+	margin-top:-1.9%;
+	margin-left:420px;
+	float:left;
+	}
+	
+	.arrow_img_6 {
+	margin-top:-10.8%;
+	margin-left:125px;
+	float:left;
+	}	
+	
+	.mega_menu_heading{
+	color:#000;
+	text-decoration:none !important;
+	font-size:14px;
+	}	
+	
+	.mega_menu_d1 {
+	margin-top:0.6%;
+	position:absolute;
+	width:100%;
+	margin-left:-3%;
+	z-index:999999;
+	padding-top:0.6%;
+	padding-bottom:2%;
+	border:solid 1px #ccc;
+	}	
+	
+	.mega_menu_image_link{
+		font-size: 13px;
+	}
+}
+
+
+@media (min-width: 991px) and (max-width: 1099px) {
+	.main-logo {
+		width:90%;
+	}
+	.my_navbar_collapse {
+		width: 80% !important;
+	}
+	
+	.arrow_img {
+    margin-top: -1.9%;
+	margin-left: 80px;	
+    float: left;
+	}
+	
+	.mega_menu_d1{
+		margin-left: -6%;
+	}
+	
+	.arrow_img_2{
+		
+		margin-top:-5.2%;
+		margin-left:150px;
+		float:left;
+	}
+	
+	.arrow_img_3 {
+		margin-top:-4.8%;
+		margin-left:200px;
+		float:left;
+	}
+
+	.arrow_img_4 {
+	margin-top:-2.3%;
+	margin-left:290px;
+	float:left;
+	}
+	
+	.arrow_img_5{
+	margin-top:-2.1%;
+	margin-left:380px;
+	float:left;
+	}
+	
+	.arrow_img_6 {
+	margin-top:-11.3%;
+	margin-left:110px;
+	float:left;
+	}
+	
+	.arrow_img_7 {
+	margin-top:-9.8%;
+	margin-left:70px;
+	float:left;
+	}
+	
+	.mega_menu_heading{
+	color:#000;
+	text-decoration:none !important;
+	font-size:13px;
+	}
+	
+	.mega_menu_d1 {
+	margin-top:0.7%;
+	position:absolute;
+	width:100%;
+	margin-left:-6%;
+	z-index:999999;
+	padding-top:0.6%;
+	padding-bottom:2%;
+	border:solid 1px #ccc;
+	}
+	
+	.mega_menu_d2 {
+	margin-top:0.7%;
+	position:absolute;
+	width:36%;
+	margin-left:-11%;
+	z-index:999999;
+	padding-top:0.6%;
+	padding-bottom:2%;
+	border:solid 1px #ccc;
+	}
+	
+	.mega_menu_d1_col2_ul_list{
+	
+    font-size: 12px;
+ 
+	}
+	
+	.mega_menu_d1_col3_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+}
+	
+	.mega_menu_d1_col4_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+}
+	
+	.mega_menu_d1_col5_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+	}
+	
+	.mega_menu_d1_col6_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+	}
+	
+	.mega_menu_d1_col7_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+	}
+	
+	.mega_menu_d2_col2_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+	}
+	.mega_menu_d3_col2_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+	}
+	
+	.mega_menu_d4_col1_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+	text-align:center;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+
+	}
+	
+	.mega_menu_d4_col3_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+	text-align:center;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 11px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+
+	}
+	
+	.mega_menu_d5_col4_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+	text-align:center;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 11px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+
+	}
+	
+	.mega_menu_d5_col1_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+	text-align:center;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 11px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+
+	}
+	
+	.mega_menu_d6_col1_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+	text-align:center;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 11px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+
+	}
+	
+	.mega_menu_d7_col1_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+	text-align:center;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 11px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+
+	}
+	
+	.mega_menu_image_link{
+		font-size: 12px;
+	}
+	
+	.mega_sub_menu_d1_col1_ul_list{
+		font-size:12px;
+	}
+	
+}
+
+
+@media (min-width: 872px) and (max-width: 991px) {
+ 	.main-logo {
+		width:100%;
+		height:65%;
+		margin-top:3%;
+	}
+	
+	.navi {
+			padding-left: 3% ;
+			padding-right: 3% ;
+		}
+	
+	.nav_ul .nav_li {	
+	margin-left:0px;
+		
+	}
+	
+	.nav-link{
+		font-size:12px;
+		font-weight: 700;
+	}
+ 
+	.arrow_img {
+    margin-top: -2.3%;
+    margin-left: 40px;
+    float: left;
+	}
+	
+	.mega_menu_d1{
+		margin-left: 1%;
+	}
+	
+	.arrow_img_2{
+		
+		margin-top:-4.7%;
+		margin-left:120px;
+		float:left;
+	}
+	
+	.arrow_img_3 {
+		margin-top:-5.2%;
+		margin-left:165px;
+		float:left;
+	}
+	
+	.arrow_img_4 {
+	margin-top:-2.6%;
+	margin-left:260px;
+	float:left;
+	}
+	
+	.arrow_img_5{
+	margin-top:-2.4%;
+	margin-left:340px;
+	float:left;
+	}
+	
+	.arrow_img_6 {
+	margin-top:-12.5%;
+	margin-left:100px;
+	float:left;
+	}
+	
+	.arrow_img_7 {
+	margin-top:-10.3%;
+	margin-left:70px;
+	float:left;
+	}	
+	
+	.mega_menu_heading{
+	color:#000;
+	text-decoration:none !important;
+	font-size:11px;
+	}
+	
+	
+	.mega_menu_d2 {
+	margin-top:0.7%;
+	position:absolute;
+	width:40%;
+	margin-left:-11%;
+	z-index:999999;
+	padding-top:0.6%;
+	padding-bottom:2%;
+	border:solid 1px #ccc;
+	}
+	
+	.mega_menu_d1_col2_ul_list{
+	
+    font-size: 10px;
+ 
+	}
+	
+	.mega_menu_d1_col3_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+}
+	
+	.mega_menu_d1_col4_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+}
+	
+	.mega_menu_d1_col5_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+	}
+	
+	.mega_menu_d1_col6_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+	}
+	
+	.mega_menu_d1_col7_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+	}
+	
+	.mega_menu_d2_col2_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+	}
+	.mega_menu_d3_col2_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+	}
+	
+	.mega_menu_d4_col1_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+	text-align:center;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+
+	}
+	
+	.mega_menu_d4_col3_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+	text-align:center;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 9px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+
+	}
+	
+	.mega_menu_d5_col4_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+	text-align:center;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+
+	}
+	
+	.mega_menu_d5_col1_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+	text-align:center;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 9px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+
+	}
+	
+	.mega_menu_d6_col1_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+	text-align:center;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+
+	}
+	
+	.mega_menu_d7_col1_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+	text-align:center;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+
+	}
+	
+	.mega_menu_image_link{
+		font-size: 9px;
+	}
+	
+	.mega_sub_menu_d1_col1_ul_list{
+		font-size:11px;
+	}
+	.product_btn {
+		float:left;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 872px) {
+ 	.main-logo {
+		width:100%;
+		height:65%;
+		margin-top:3%;
+	}
+	
+	.navi {
+			padding-left: 0% !important;
+			padding-right: 2% !important;
+		}
+	
+	.nav_ul .nav_li {	
+	margin-left:1px;
+		
+	}
+	
+	.nav-link{
+		font-size:12px;
+		font-weight: 700;
+	}
+
+	.mega_menu_d1{
+		margin-left: -2%;
+	}
+	
+	.arrow_img {
+    margin-top: -2.3%;
+    margin-left: 35px;
+    float: left;
+	}
+
+	.arrow_img_2{
+		
+		margin-top:-4.6%;
+		margin-left:110px;
+		float:left;
+	}
+ 	
+	.arrow_img_3 {
+		margin-top:-5.9%;
+		margin-left:160px;
+		float:left;
+	}
+	
+	.arrow_img_4 {
+	margin-top:-3%;
+	margin-left:230px;
+	float:left;
+	}
+	
+	.arrow_img_5{
+	margin-top:-2.3%;
+	margin-left:55%;
+	float:left;
+	}
+	
+	.arrow_img_6 {
+	margin-top:-12.4%;
+	margin-left:80px;
+	float:left;
+	}
+	
+	.arrow_img_7 {
+	margin-top:-12.5%;
+	margin-left:60px;
+	float:left;
+	}
+	
+	.mega_menu_heading{
+	color:#000;
+	text-decoration:none !important;
+	font-size:10px;
+	}
+	
+	.mega_menu_d1 {
+	margin-top:0.9%;
+	position:absolute;
+	width:100%;
+	margin-left:-2%;
+	z-index:999999;
+	padding-top:0.6%;
+	padding-bottom:2%;
+	border:solid 1px #ccc;
+	}
+	
+	.mega_menu_d2 {
+	margin-top:0.7%;
+	position:absolute;
+	width:45%;
+	margin-left:-10%;
+	z-index:999999;
+	padding-top:0.6%;
+	padding-bottom:2%;
+	border:solid 1px #ccc;
+	}
+	
+	.mega_menu_d1_col2_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+}
+	
+	.mega_menu_d1_col3_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+}
+	.mega_menu_image_link{
+		font-size: 9px;
+	}
+	
+	.mega_menu_d1_col4_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+}
+	
+	.mega_menu_d1_col5_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+	}
+	
+	.mega_menu_d1_col6_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+	}
+	
+	.mega_menu_d1_col7_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+	}
+	
+	.mega_menu_d2_col2_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+	}
+	.mega_menu_d3_col2_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+	border-bottom: 1px #f0f0f0 solid;
+	}
+	
+	.mega_menu_d4_col1_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+	text-align:center;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+
+	}
+	
+	.mega_menu_d4_col3_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+	text-align:center;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 9px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+
+	}
+	
+	.mega_menu_d5_col4_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+	text-align:center;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+
+	}
+	.mega_menu_d5 {
+		margin-left:-45%;
+		width:100% !important;
+	}
+	.sunglasses_brand_images_list1 {
+		width:100%;
+	}
+	.mega_menu_d5_col2 {
+		padding-left:0px;
+		padding-right: 0px;
+	}
+	
+	.mega_menu_d5_col1_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+	text-align:center;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 9px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+
+	}
+	
+	.mega_menu_d6_col1_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+	text-align:center;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+
+	}
+	
+	.mega_menu_d7_col1_ul_list{
+	font-weight: normal;
+    color: #000;
+    display: block;
+	text-align:center;
+    line-height: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0;
+    opacity: 1;
+	text-decoration:none !important;
+
+	}
+	.mega_sub_menu_d1_col1_ul_list{
+		font-size:10px;
+	}
+
+	.product_btn {
+		float:left;
+	}
+}
+
+
+@media (min-width: 400px) and (max-width: 768px) { 
+	.contact_lense_aside {
+		display:none;
+	}
+	.container {
+		min-width: 100% !important;
+	}
+	.home_btn_category_container {
+		
+	}	
+	
+	.header_container {
+		display: none;
+	}
+	.header_nav {
+		display:none;
+	}
+	.larki1 {
+		margin-top:40% !important;
+	}
+	.footer_copyright_img {
+		width:12%;
+		margin-top:-5%;
+	}
+	
+	.product_btn {
+		float:left;
+	}
+}
+@media (min-width: 175px) and (max-width: 399px) { 
+	
+}
+
+
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ 
+  
+ 
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+ 
+  
+ 
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+ 
+  
+ 
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+ 
+  
+ 
+}
+
+
+/* Responsive Home Page CSS End /*
+
+/****************************** Responsive CSS End ***********************************************/

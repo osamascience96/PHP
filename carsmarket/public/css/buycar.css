@@ -1,0 +1,13 @@
+#main{
+    margin-top: 50px;
+}
+
+#submaincontainer{
+    background-color: gainsboro;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#carimg{
+    border-radius: 5px;
+}

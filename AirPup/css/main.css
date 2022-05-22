@@ -1,0 +1,16 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.pet-list-item blockquote {
+    color: #999;
+    padding: 0 10px;
+}
+
+.pet-list-item img {
+    max-width: 100%;
+    max-height: 200px;
+    margin-bottom: 10px;
+}

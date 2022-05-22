@@ -1,0 +1,482 @@
+<?php include('Connection2.php'); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Eye Care | Edit</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" href="css/uniform.css" />
+<link rel="stylesheet" href="css/select2.css" />
+<link rel="stylesheet" href="css/matrix-style.css" />
+<link rel="stylesheet" href="css/matrix-media.css" />
+<link rel="stylesheet" href="css/bootstrap-wysihtml5.css" />
+<link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!--Header-part-->
+<div id="header">
+  <h1><a href="dashboard.html">Matrix Admin</a></h1>
+</div>
+<!--close-Header-part--> 
+
+<!--top-Header-menu-->
+<div id="user-nav" class="navbar navbar-inverse">
+  <ul class="nav">
+    <li  class="dropdown" id="profile-messages" ><a title="" href="#" data-toggle="dropdown" data-target="#profile-messages" class="dropdown-toggle"><i class="icon icon-user"></i>  <span class="text">Welcome User</span><b class="caret"></b></a>
+      <ul class="dropdown-menu">
+        <li><a href="#"><i class="icon-user"></i> My Profile</a></li>
+        <li class="divider"></li>
+        <li><a href="#"><i class="icon-check"></i> My Tasks</a></li>
+        <li class="divider"></li>
+        <li><a href="login.html"><i class="icon-key"></i> Log Out</a></li>
+      </ul>
+    </li>
+    <li class="dropdown" id="menu-messages"><a href="#" data-toggle="dropdown" data-target="#menu-messages" class="dropdown-toggle"><i class="icon icon-envelope"></i> <span class="text">Messages</span> <span class="label label-important">5</span> <b class="caret"></b></a>
+      <ul class="dropdown-menu">
+        <li><a class="sAdd" title="" href="#"><i class="icon-plus"></i> new message</a></li>
+        <li class="divider"></li>
+        <li><a class="sInbox" title="" href="#"><i class="icon-envelope"></i> inbox</a></li>
+        <li class="divider"></li>
+        <li><a class="sOutbox" title="" href="#"><i class="icon-arrow-up"></i> outbox</a></li>
+        <li class="divider"></li>
+        <li><a class="sTrash" title="" href="#"><i class="icon-trash"></i> trash</a></li>
+      </ul>
+    </li>
+    <li class=""><a title="" href="#"><i class="icon icon-cog"></i> <span class="text">Settings</span></a></li>
+    <li class=""><a title="" href="login.html"><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a></li>
+  </ul>
+</div>
+
+<!--start-top-serch-->
+<div id="search">
+  <input type="text" placeholder="Search here..."/>
+  <button type="submit" class="tip-bottom" title="Search"><i class="icon-search icon-white"></i></button>
+</div>
+<!--close-top-serch--> 
+
+<!--sidebar-menu-->
+
+<?php include 'dashboard_aside.php' ?>
+<div id="content">
+  <div id="content-header">
+    <div id="breadcrumb"> <a href="#" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a> <a href="#" class="current">Product View </a> </div>
+    <h1>Product View <?php if(isset($_GET['product'])  == "contact_lense") { echo "Contact Lense"; } else{} ?></h1>
+  </div>
+	<div class="container-fluid">
+  <hr>
+  		<div class="row-fluid">
+			<div class="span6">
+				<div class="widget-box">
+          <div class="widget-title"> <span class="icon"> <i class="icon-picture"></i> </span>
+            <h5>Product Images</h5>
+          </div>
+          <div class="widget-content">
+            <ul class="thumbnails" style="padding-right: 3%;">
+				<?php
+				$temp_product_id = $_GET['product_id'];
+				$fetch_query1 = mysqli_query($conn,"SELECT * FROM product where id=$temp_product_id  AND active=1");
+					while($row1=mysqli_fetch_array($fetch_query1,MYSQLI_ASSOC)) { ?>
+              <li class="span12"> <a> <img src="../images/Products/<?php echo $row1['image']; ?>" alt="" class="product_view_image"> </a>
+                <div class="actions"> <!--<a title="" class="" href="#"><i class="icon-pencil"></i></a>--> <a class="lightbox_trigger" href="../images/Products/<?php echo $row1['image']; ?>"><i class="icon-search"></i></a> </div>
+              </li>
+			<?php } ?>
+            </ul>
+            <ul class="thumbnails">
+			<?php
+				$fetch_query2 = mysqli_query($conn,"SELECT * FROM gallery where Product_id=$temp_product_id  AND active=1");
+					while($row2=mysqli_fetch_array($fetch_query2,MYSQLI_ASSOC)) { ?>
+			  <form action="" method="post">
+              <li class="span3"> <a> <img src="../images/Products/<?php echo $row2['Image_Link']; ?>" alt="" > </a>
+                <div class="actions"> <button type="submit" class="btn image_delete" name="delete_gallery_image"><i class="icon-trash"></i></button> <a class="lightbox_trigger" href="../images/Products/<?php echo $row2['Image_Link']; ?>"><i class="icon-search"></i></a> </div>
+				<input type="hidden" name="delete_id" value="<?php echo $row2['id']; ?>" />
+				<input type="hidden" name="delete_file" value="<?php echo $row2['Image_Link']; ?>" />
+              </li>
+			  </form>
+				<?php } ?>
+				<li class="span12">
+				<div class="control-group">
+				  <label class="control-label">Add Gallery Images :</label>
+				  <div class="controls">
+					<form action="" method="post" enctype="multipart/form-data">
+						<input type="hidden" name="prod_id" value="<?php echo $_GET['product_id']; ?>">
+						<input type="file" name="files[]" multiple >
+						<input type="submit" class="btn btn-success" name="gallery_btn" value="UPLOAD">
+					</form>
+				</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+			</div>
+			<div class="span6">
+				 <div class="widget-box">
+          <div class="widget-title"> <span class="icon"> <i class="icon-th"></i> </span>
+            <h5>Product Basic Details:</h5>
+          </div>
+          <div class="widget-content nopadding">
+            <table class="table table-bordered table-striped">
+              <thead>
+               
+              </thead>
+				<?php
+				$fetch_query3 = mysqli_query($conn,"SELECT * FROM product where id=$temp_product_id  AND active=1");
+					while($row3=mysqli_fetch_array($fetch_query3,MYSQLI_ASSOC)) { ?>
+              <tbody>
+                <tr class="odd gradeX">
+                  <th>Stock ID</th>
+                  <td><?php echo $row3['order_number']; ?></td>
+                </tr>
+				 <tr class="odd gradeX">
+                  <th>Name</th>
+                  <td><?php echo $row3['name']; ?></td>
+                </tr>
+				  <tr class="odd gradeX">
+                  <th>Price</th>
+                  <td><?php echo $row3['Price']; ?></td>
+                </tr>
+				  <tr class="odd gradeX">
+                  <th>Sale Price</th>
+                  <td><?php echo $row3['Sale_Price']; ?></td>
+                </tr>
+				 <tr class="odd gradeX">
+                  <th>Quantity</th>
+                  <td><?php echo $row3['Quantity']; ?></td>
+                </tr>
+				 <tr class="odd gradeX">
+                  <th>Product Quantity Description</th>
+                  <td><?php echo $row3['Product_Qty_Description']; ?></td>
+                </tr>
+				   <tr class="odd gradeX">
+                  <th>Eye Care</th>
+                  <td><?php
+				$temp_product_id2 = $row3['Eye_Care'];										 	
+				$fetch_query4 = mysqli_query($conn,"SELECT * FROM eye_care where id=$temp_product_id2 AND active=1");
+				while($row4=mysqli_fetch_array($fetch_query4,MYSQLI_ASSOC)) { ?>
+				  <option value="<?php echo $row4['Eye_Care']; ?>"><?php echo $row4['Eye_Care']; ?></option>
+				<?php } ?></td>
+                </tr>
+				   <tr class="odd gradeX">
+                  <th>Popular Eye Care</th>
+                  <td><?php
+				$temp_product_id3 = $row3['Popular_Eye_Care'];										 	
+				$fetch_query4 = mysqli_query($conn,"SELECT * FROM popular_eye_care where id=$temp_product_id3 AND active=1");
+				while($row4=mysqli_fetch_array($fetch_query4,MYSQLI_ASSOC)) { ?>
+				  <option value="<?php echo $row4['Popular_Eye_Care']; ?>"><?php echo $row4['Popular_Eye_Care']; ?></option>
+				<?php } ?></td>
+                </tr>
+              </tbody>
+				<?php } ?>
+            </table>
+          </div>
+        </div>
+			</div>
+		</div>
+
+		<!-- *************** ROW 3 ***************** -->
+		<div class="row-fluid">
+			
+			<!-- Add Variants Start -->
+			<div class="span6">
+				<div class="widget-box">
+				  <div class="widget-title"> <span class="icon"> <i class="icon-align-center"></i> </span>
+					<h5>Add Number Of Pack Option</h5>
+				  </div>
+				  <div class="widget-content">
+					  <a href="#myModal1" data-toggle="modal" class="btn btn-danger power_view_btn">View Number Of Packs</a>
+					<div id="myModal1" class="modal hide">
+              <div class="modal-header">
+                <button data-dismiss="modal" class="close" type="button">×</button>
+                <h3>Add Number Of Pack Option</h3>
+              </div>
+              <div class="modal-body">
+                	<table class="table table-bordered table-striped" style=" margin-left: 0px;">
+              <thead>
+				 <tr>
+				 <th>Number Of Pack</th>
+				 <!--<th>Delete</th>-->
+				 </tr>
+              </thead>
+              <tbody>
+                <tr>
+					<form action="" method="post">
+					<input type="hidden" name="delete_id" value="<?php echo $row5['id']; ?>" />
+					<input type="hidden" name="prod_id" value="<?php echo $row['id']; ?>" />
+                  		<?php
+						$fetch_query99 = mysqli_query($conn,"SELECT * FROM product where id=$temp_product_id AND active=1");
+						while($row99=mysqli_fetch_array($fetch_query99,MYSQLI_ASSOC)) {	
+						?>
+						<td style="text-align: center;"><?php echo $row99['Pack']?></td>
+						<!--<td><button type="submit" name="number_of_pack_delete" class="btn btn-danger btn-mini"><i class="icon-trash"></i></a></button></td>-->
+						<?php } ?>
+					</form>
+				  </tr>
+              </tbody>
+            </table>
+			
+			
+              </div>
+            </div>
+			
+		
+				<hr>
+					  	  
+				
+					<div class="span12" style="margin-left:0px;">
+						<form action="" method="post">
+						<label>Add Number Of Pack:</label>
+						<select class="power_range" name="number_of_pack" required>
+						<option selected>Select From</option>
+						<?php 
+						$fetch_querylp = mysqli_query($conn,"SELECT * FROM product where id=$temp_product_id AND active=1");
+						while($rowlp=mysqli_fetch_array($fetch_querylp,MYSQLI_ASSOC)) {	
+						for($i=1;$i<=50;$i++) {
+						?>
+						<option value="<?php echo $i; ?>"> <?php echo $i; ?></option>
+							
+						<?php
+							}	
+						}
+						?>
+						
+						</select>
+						
+						
+							<input type="hidden" name="prod_id" value="<?php echo $_GET['product_id']; ?>">
+							 <button type="submit" name="number_of_pack_range_btn_solution" class="btn btn-inverse power_range_btn">Add Number Off Pack</button>
+						</form>
+					</div>
+					 
+          <h6 style="visibility: hidden;">2</h6>
+							
+					
+				  </div>
+       			</div>
+			</div>
+			<!-- Add Number Of Pack End -->
+			
+			<!-- Add Number Of Pack Start -->
+			<div class="span6">
+				<div class="widget-box">
+				  <div class="widget-title"> <span class="icon"> <i class="icon-align-center"></i> </span>
+					<h5>Add Variants</h5>
+				  </div>
+				  <div class="widget-content">
+					  <a href="#myModal2" data-toggle="modal" class="btn btn-warning power_view_btn">View Variants</a>
+					<div id="myModal2" class="modal hide">
+              <div class="modal-header">
+                <button data-dismiss="modal" class="close" type="button">×</button>
+                <h3>Add Variants</h3>
+              </div>
+              <div class="modal-body">
+                	<table class="table table-bordered table-striped" style=" margin-left: 0px;">
+              <thead>
+				 <tr>
+				 <th>Order No#</th>
+				 <th>Name</th>
+				 <th>Number Of Pack</th>
+				 <th>Delete</th>
+				 </tr>
+              </thead>
+              <tbody>
+				<?php
+				$fetch_query5 = mysqli_query($conn,"SELECT * FROM number_of_pack where Product_id=$temp_product_id  AND active=1");
+					while($row5=mysqli_fetch_array($fetch_query5,MYSQLI_ASSOC)) { ?>
+                <tr>
+					<form action="" method="post">
+					<input type="hidden" name="delete_id" value="<?php echo $row5['id']; ?>" />
+					<input type="hidden" name="prod_id" value="<?php echo $row['id']; ?>" />
+                  		<?php
+						$temp_number_of_pack_id = $row5['NOP_Merge'];
+						$fetch_query99 = mysqli_query($conn,"SELECT * FROM product where id=$temp_number_of_pack_id  AND active=1");
+						while($row99=mysqli_fetch_array($fetch_query99,MYSQLI_ASSOC)) {	
+						?>
+						<td><?php echo $row99['order_number']; ?></td>
+						<td><?php echo $row99['name']; ?></td>
+						<td><?php echo $row99['Product_Qty_Description']; ?></td>
+						<td><button type="submit" name="number_of_pack_delete" class="btn btn-danger btn-mini"><i class="icon-trash"></i></a></button></td>
+						<?php } ?>
+					</form>
+                </tr>
+				<?php } ?>
+              </tbody>
+            </table>
+			
+			
+              </div>
+            </div>
+			
+		
+				<hr>
+					  	  
+				
+					<div class="span12" style="margin-left:0px;">
+						<form action="" method="post">
+						<label>Add Variants:</label>
+						<select class="power_range" name="range_number_of_pack" required>
+						<option selected>Select From</option>
+						<?php
+						$fetch_query99 = mysqli_query($conn,"SELECT * FROM product where Types_of_Solutions!=0  AND active=1");
+						while($row99=mysqli_fetch_array($fetch_query99,MYSQLI_ASSOC)) {
+						?>
+						<option class="text-captilize" value="<?php echo $row99['id']; ?>">
+						<?php echo $row99['order_number']." | ". $row99['name']." | ". $row99['Product_Qty_Description']; ?>
+						</option>
+						<?php } ?>
+						</select>
+						
+						
+							<input type="hidden" name="prod_id" value="<?php echo $_GET['product_id']; ?>">
+							 <button type="submit" name="number_of_pack_range_btn" class="btn btn-inverse power_range_btn">Add Variants</button>
+						</form>
+					</div>
+					 
+          <h6 style="visibility: hidden;">2</h6>
+							
+					
+				  </div>
+       			</div>
+			</div>
+			<!-- Add More Lense Product End -->
+			
+		</div>
+		<!-- *************** ROW 4 ***************** -->
+		<div class="row-fluid">
+			
+			
+			<div class="span12">
+				<div class="widget-box">
+				  <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+					<h5>Product Description</h5>
+				  </div>
+				  <div class="widget-content">
+					<div class="control-group">
+					  <form action="" method="post">
+						<div class="controls">
+						  <textarea class="textarea_editor span12" rows="6" name="product_description" placeholder="Enter text ...">
+							<?php
+							$fetch_query88 = mysqli_query($conn,"SELECT * FROM product_description where Product_id=$temp_product_id  AND active=1");
+							while($row88=mysqli_fetch_array($fetch_query88,MYSQLI_ASSOC)) {	  
+							echo $row88['Product_Description'];  
+							}?>
+						  </textarea>
+						  <input type="hidden" name="prod_id" value="<?php echo $_GET['product_id']; ?>">
+						  <button type="submit" name="product_description_btn" class="btn btn-success ">Update</button>
+						</div>
+					  </form>
+					</div>
+				  </div>
+				</div>
+			</div>
+			
+			
+		</div>
+
+<!-- *************** ROW 5 ***************** -->
+		<div class="row-fluid">
+			
+			
+			<div class="span12">
+				<div class="widget-box">
+				  <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+					<h5>Furthur Optical Advice</h5>
+				  </div>
+				  <div class="widget-content">
+					<div class="control-group">
+					  <form action="" method="post">
+						<div class="controls">
+						  <textarea class="textarea_editor2 span12" rows="6" name="further_optical_advice" placeholder="Enter text ...">
+							<?php
+							$fetch_query88 = mysqli_query($conn,"SELECT * FROM further_optical_advice where Product_id=$temp_product_id  AND active=1");
+							while($row88=mysqli_fetch_array($fetch_query88,MYSQLI_ASSOC)) {	  
+							echo $row88['Product_Optical_Advice'];  
+							}?>
+						  </textarea>
+						  <input type="hidden" name="prod_id" value="<?php echo $_GET['product_id']; ?>">
+						  <button type="submit" name="further_optical_advice_btn" class="btn btn-success ">Update</button>
+						</div>
+					  </form>
+					</div>
+				  </div>
+				</div>
+			</div>
+			
+			
+		</div>
+
+<!-- *************** ROW 6 ***************** -->
+		<div class="row-fluid">
+			
+			
+			<div class="span12">
+				<div class="widget-box">
+				  <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+					<h5>Product Detail Advice</h5>
+				  </div>
+				  <div class="widget-content">
+					<div class="control-group">
+					  <form action="" method="post">
+						<div class="controls">
+						  <textarea class="textarea_editor3 span12" rows="6" name="product_detail_advice" placeholder="Enter text ...">
+							<?php
+							$fetch_query88 = mysqli_query($conn,"SELECT * FROM product_detail_advice where Product_id=$temp_product_id  AND active=1");
+							while($row88=mysqli_fetch_array($fetch_query88,MYSQLI_ASSOC)) {	  
+							echo $row88['Product_Detail_Advice'];  
+							}?>
+						  </textarea>
+						  <input type="hidden" name="prod_id" value="<?php echo $_GET['product_id']; ?>">
+						  <button type="submit" name="product_detail_advice_btn" class="btn btn-success ">Update</button>
+						</div>
+					  </form>
+					</div>
+				  </div>
+				</div>
+			</div>
+			
+			
+		</div>
+
+
+	</div>
+</div>
+<!--Footer-part-->
+<div class="row-fluid">
+  <div id="footer" class="span12"> 2013 &copy; Matrix Admin. Brought to you by <a href="http://themedesigner.in">Themedesigner.in</a> </div>
+</div>
+<!--end-Footer-part-->
+<script src="js/jquery.min.js"></script> 
+<script src="js/jquery.ui.custom.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.uniform.js"></script> 
+<script src="js/select2.min.js"></script> 
+<script src="js/jquery.dataTables.min.js"></script> 
+<script src="js/matrix.js"></script> 
+<script src="js/matrix.tables.js"></script>
+<script src="js/wysihtml5-0.3.0.js"></script> 
+<script src="js/bootstrap-wysihtml5.js"></script> 
+<script>
+	$('.textarea_editor').wysihtml5();
+	$('.textarea_editor2').wysihtml5();
+	$('.textarea_editor3').wysihtml5();
+</script>
+<script>
+	if($('#qty1').text() != "") {
+	   $('#qty_btn1').prop('disabled', true);
+	}
+	else {
+	   
+	}
+	if($('#qty2').text() != "") {
+	   $('#qty_btn2').prop('disabled', true);
+	}
+	else {
+	   
+	}
+	
+</script>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+<ifModule mod_rewrite.c>
+    Options -Multiviews
+    RewriteEngine on
+    RewriteBase /PHP_PRACTICE/public/api/
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.+)$ index.php?apiParams=$1 [QSA,L]
+</IfModule>
